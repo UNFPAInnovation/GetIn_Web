@@ -241,16 +241,31 @@ class SubjectHandler(DispatchingHandler):
     allowed_methods = ('GET', 'POST','PUT')
     fields = (
         "uuid",
-        "family_name",
         "given_name",
-        "gender",
+        "family_name",
+        "pnumber",
         "dob",
-        "image",
-        "system_id",
+        "gender",
+        "holder_pNumber",
+        "LMD",
+        "marital_status",
+        "comment",
         ("location",("name","uuid")),
+        "educational_level",
+        "contraceptive_use",
+        "ANC_status",
+        "ANC_visit",
+        "EDD",
+        "receive_sms",
+        "follow_up",
+        "CUG_status",
+        "bleeding",
+        "fever",
+        "swollen_feet",
+        "blurred_vision",
         "modified",
         "created",
-        "voided",
+        "voided" 
     )
     model = Subject
     form = SubjectForm
@@ -292,33 +307,6 @@ class CompoundFormHandler(object):
         pass
 
 # mds/core/handlers.py
-@logged
-class SubjectHandler(DispatchingHandler):
-    """ Handles subject requests. """
-    allowed_methods = ('GET', 'POST','PUT')
-    fields = (
-        "uuid",
-        "family_name",
-        "given_name",
-        "gender",
-        "dob",
-        "image",
-        "system_id",
-        ("location",("name","uuid")),
-        "modified",
-        "created",
-        "voided",
-        # add new fields to the list below
-        'pNumber',
-        'holder_pNumber',
-        # etc.
-
-    )
-    model = Subject
-    
-    form = SubjectForm
-    signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
-
 @logged        
 class ObserverHandler(DispatchingHandler):
     """ Handles observer requests. """
