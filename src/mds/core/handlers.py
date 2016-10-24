@@ -291,6 +291,52 @@ class CompoundFormHandler(object):
     def __call__(self):
         pass
 
+# mds/core/handlers.py
+@logged
+class SubjectHandler(DispatchingHandler):
+    """ Handles subject requests. """
+    allowed_methods = ('GET', 'POST','PUT')
+    fields = (
+        "uuid",
+        "family_name",
+        "given_name",
+        "gender",
+        "dob",
+        "image",
+        "system_id",
+        ("location",("name","uuid")),
+        "modified",
+        "created",
+        "voided",
+        # add new fields to the list below
+        'pNumber',
+        'holder_pNumber',
+        # etc.
+
+    )
+    model = Subject
+    
+    form = SubjectForm
+    signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
+
+@logged        
+class ObserverHandler(DispatchingHandler):
+    """ Handles observer requests. """
+    allowed_methods = ('GET', 'POST','PUT')
+    model = Observer
+    form = ObserverForm
+    fields = (
+        "uuid",
+        ("user",("username","is_superuser")),
+        "modified",
+        "created",
+        "voided",
+        # New fields below
+        "role"
+    )
+    signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
+
+
 def intake_handler(request,*args,**kwargs):
     pass
 
