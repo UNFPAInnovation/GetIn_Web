@@ -41,7 +41,7 @@ __all__ = ['ConceptHandler',
            'DocHandler' ,
            'SessionHandler',
            'SubjectHandler',
-           'LocationHandler',]
+           'LocationHandler']
 
 @logged     
 class SessionHandler(DispatchingHandler):
@@ -267,8 +267,8 @@ class SubjectHandler(DispatchingHandler):
         "created",
         "voided" 
     )
-    model = Subject
-    form = SubjectForm
+    model = Patients
+    form = PatientForm
     signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
 
 class DocHandler(BaseHandler):

@@ -22,6 +22,7 @@ __all__ = ['ConceptForm', 'RelationshipForm', 'RelationshipCategoryForm',
            'SubjectForm',
            'ProcedureForm',
            'SessionForm',
+           'PatientForm'
            ]
 
 class SessionForm(forms.Form):
@@ -88,6 +89,10 @@ class ProcedureForm(forms.ModelForm):
     
     class Meta:
         model = Procedure
+
+class PatientForm(forms.ModelForm):
+   class Meta:
+       model = Patients
      
 class SubjectForm(forms.ModelForm):
     """ A simple patient form

@@ -1,4 +1,7 @@
-class Subject(AbstractSubject): 
+from django.db import models
+from .subject import AbstractSubject
+
+class Patients(AbstractSubject): 
     """ Simple subject implementation as a medical patient. 
     """
     class Meta:

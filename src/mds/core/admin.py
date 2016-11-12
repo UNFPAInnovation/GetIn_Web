@@ -5,7 +5,9 @@
 """
 
 from django.contrib import admin
-from .models import * 
+from .models import *
+"""from mds.core.models.patients import Subject
+""" 
 
 def mark_voided(modeladmin,request,queryset):
     queryset.update(voided=True)
@@ -71,10 +73,6 @@ class SubjectAdmin(admin.ModelAdmin):
 class SubjectInline(admin.StackedInline):
     model = Subject
 
-class SurgicalSubjectAdmin(admin.ModelAdmin):
-    readonly_fields = ['uuid',]
-    list_display = ['system_id','given_name', 'family_name', 'uuid', "image"]
-
 class LocationAdmin(admin.ModelAdmin):
     model = Location
     list_display = ('name',)
@@ -82,7 +80,8 @@ class LocationAdmin(admin.ModelAdmin):
     
 class EventAdmin(admin.ModelAdmin):
     model = Event
-
+class PatientAdmin(admin.ModelAdmin):
+    model=Patients
 admin.site.register(Concept, ConceptAdmin)
 admin.site.register(Relationship)
 admin.site.register(RelationshipCategory)
@@ -93,7 +92,7 @@ admin.site.register(Location,LocationAdmin)
 admin.site.register(Notification)
 admin.site.register(Observer,ObserverAdmin)
 admin.site.register(Procedure,ProcedureAdmin)
-admin.site.register(Subject,SubjectAdmin)
+admin.site.register(Patients, PatientAdmin)
 admin.site.register(Event)
 
 #admin.site.register(ClientEventLog, ClientEventLogAdmin)
