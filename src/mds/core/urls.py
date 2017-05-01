@@ -85,6 +85,11 @@ extra_patterns = patterns(
 
     #location
     url(r'^location/$', rsrc_location, name='location-list'),
+
+    #ambulance driver
+    # fill in with same pattern as above - i.e. list and item
+    url(r'^ambulancedriver/$', rsrc_ambulancedriver, name='ambulancedriver-list'),
+    url(r'^ambulancedriver/(?P<uuid>[^/]+)/$', rsrc_ambulancedriver, name='ambulancedriver')
 )
 
 # add the non-RESTful urls

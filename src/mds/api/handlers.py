@@ -87,6 +87,10 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
             return self.model.objects.get(uuid=uuid)
         if kwargs:
             qs.filter(**kwargs)
+        if self.fks:
+            qs = qs.select_related(*self.fks)
+        if self.m2m:
+            qs = qs.prefetch_related(*self.m2m)
         return qs
 
     @validate('POST')
@@ -132,13 +136,32 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
             elif uuid:
                 response = self._read_by_uuid(request,uuid)
             else:
+                '''
                 q = request.REQUEST
                 if q:
                     response = BaseHandler.read(self,request, **q)
                 else:
                     logging.info("No querystring")
                     response = BaseHandler.read(self,request)
-            return succeed(response)
+                '''
+                query_dict = request.GET.copy()
+                attrs = self.flatten_dict(query_dict)
+                # handle m2m fields
+                for _m2m in self.m2m:
+                    m2m_value = attrs.pop(_m2m, None)
+                    if m2m_value:
+                        m2m_query = "{0}__uuid__in".format(_m2m)
+                        attrs[m2m_query] = m2m_value
+                        
+                # Handle any explicit in queries
+                for k,v in attrs.items():
+                    if "__in" in k:
+                        attrs[k] = [x for x in v.split(",")]
+                if len(attrs) > 0:
+                    response = BaseHandler.read(self,request,**attrs)
+                else:
+                    response = self.queryset(request)
+                return succeed(response)
         except Exception, e:
             return self.trace(request, e)
             

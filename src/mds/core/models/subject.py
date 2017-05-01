@@ -32,6 +32,7 @@ class Subject(AbstractSubject):
     """
     class Meta:
         app_label = "core"
+    '''
     given_name = models.CharField(max_length=64)
 
     family_name = models.CharField(max_length=64)
@@ -45,7 +46,7 @@ class Subject(AbstractSubject):
     location = models.ForeignKey('Location', blank=True, to_field='uuid')
 
     system_id = models.CharField(max_length=64, blank=True)
-
+    
     @property
     def age(self):
         """ Convenience wrapper to calculate the age. """
@@ -93,3 +94,4 @@ class Subject(AbstractSubject):
 
     def __unicode__(self):
         return u'%s, %s - %s' % (self.family_name, self.given_name, self.system_id)
+    '''

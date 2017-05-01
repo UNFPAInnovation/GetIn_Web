@@ -22,7 +22,8 @@ __all__ = ['ConceptForm', 'RelationshipForm', 'RelationshipCategoryForm',
            'SubjectForm',
            'ProcedureForm',
            'SessionForm',
-           'PatientForm'
+           'PatientForm',
+           'AmbulanceDriverForm'
            ]
 
 class SessionForm(forms.Form):
@@ -99,3 +100,7 @@ class SubjectForm(forms.ModelForm):
     """
     class Meta:
         model = Subject
+
+class AmbulanceDriverForm(forms.ModelForm):
+    class Meta:
+        model = AmbulanceDriver

@@ -17,6 +17,7 @@ __all__ = [
     'rsrc_event',
     'rsrc_doc',
     'rsrc_session',
+    'rsrc_ambulancedriver'
 ]
 
 rsrc_concept = Resource(ConceptHandler)
@@ -36,3 +37,4 @@ rsrc_event = Resource(EventHandler)
 
 rsrc_doc = Resource(DocHandler)
 rsrc_session = Resource(SessionHandler)
+rsrc_ambulancedriver = Resource(AmbulanceDriverHandler)

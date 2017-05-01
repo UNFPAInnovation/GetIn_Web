@@ -4,6 +4,8 @@
 :version: 2.0
 :copyright: Sana 2012, released under BSD New License(http://sana.mit.edu/license)
 '''
+import logging
+
 from piston.handler import BaseHandler
 
 from .forms import *
@@ -27,8 +29,8 @@ class EncounterTaskHandler(DispatchingHandler):
     fields = (
         "uuid",
         ("assigned_to",("uuid",)),
-        ("subject",("uuid")),
-        ("encounter",("uuid")),
+        ("subject",("uuid",)),
+        ("encounter",("uuid",)),
         "status",
         "due_on",
         "completed",
@@ -54,7 +56,7 @@ class EncounterTaskHandler(DispatchingHandler):
             if status.isdigit():
                 obj.status = Status.objects.get(pk=int(status))
             else:
-                obj.status = Status.objects.get(current__icontains=status)
+                obj.status = Status.objects.filter(current__iexact=status).first()
 
         encounter = data.pop("encounter", None)
         logging.debug("....encounter:: %s" % encounter)
@@ -68,7 +70,7 @@ class EncounterTaskHandler(DispatchingHandler):
             obj.subject = Subject.objects.get(uuid=subject)
         observer = data.pop("observer",None)
         if(observer):
-            obj.observer = Observer.objects.get(uuid=observer)
+            obj.assigned_to = Observer.objects.get(uuid=observer)
         for k,v in data.items():
             setattr(obj,k,v)
         obj.save()

@@ -18,6 +18,8 @@ from .observer import Observer
 from .procedure import Procedure
 from .subject import Subject
 from .patients import Patients
+#from .patient import Patient
+from .ambulancedriver import AmbulanceDriver
 from mds.core.extensions.models import *
 
 __all__ = ['Concept', 'Relationship','RelationshipCategory',
@@ -31,5 +33,7 @@ __all__ = ['Concept', 'Relationship','RelationshipCategory',
            'Observer',
            'Procedure',
            'Subject',
-           'Patients'
+           'Patients',
+           'AmbulanceDriver',
+           #'Patient'
            ]

@@ -43,6 +43,8 @@ class Encounter(models.Model):
 
     voided = models.BooleanField(default=False)
 
+    #patient = models.ForeignKey('Patients', to_field='uuid', blank=True)
+
     @property
     def slug(self):
         return self.uuid

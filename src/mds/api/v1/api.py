@@ -351,7 +351,7 @@ def maybe_upload_procedure(saved_procedure):
             obs.save()
         if result:
             #if obs.concept.is_complex:
-            notification_sent = sender.send_review_notification(encounter)
+            #notification_sent = sender.send_review_notification(encounter)
             logging.info("Sent notification for Observation: %s" % encounter.uuid)
     return result, message
 

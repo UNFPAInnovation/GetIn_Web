@@ -23,7 +23,7 @@ urlpatterns = patterns(
     url(r'^core/', include('mds.core.urls')),#, namespace='mds.core')),
     url(r'^tasks/', include('mds.tasks.urls')),#, namespace='tasks')),
     url(r'^clients/', include('mds.clients.urls',namespace='clients')),
-    url(r'^web/', include('mds.web.urls', namespace='web')),#,app_name='mds')),
+    #url(r'^web/', include('mds.web.urls', namespace='web')),#,app_name='mds')),
     # ADMIN
     (r'^admin/', include(admin.site.urls)),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),

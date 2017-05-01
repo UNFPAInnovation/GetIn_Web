@@ -47,12 +47,15 @@ class ObservationAdmin(admin.ModelAdmin):
     readonly_fields = ['_complex_size','uuid','value']
     list_display = ['question','voided','concept','value', 
         'subject','device','created','modified', 'encounter', 'upload_progress']
-    list_filter = ['node','concept', 'modified', 'encounter']
+    list_filter = ['node','concept', 'modified' ]
     actions=[mark_voided,]
 
 class EncounterAdmin(admin.ModelAdmin):
+    def patient(self):
+        return Patients.objects.get(uuid=self.subject)
+        
     #exclude = ['concept',]
-    list_display = ['subject','voided','concept', 'procedure', 'created','uuid',"observer",]
+    list_display = [ 'subject','voided','concept', 'procedure', 'created','uuid',"observer",]
     #actions = [mark_encounter_voided,]
     actions=[mark_voided,]
     readonly_fields = ['uuid',]
@@ -62,7 +65,7 @@ class EncounterInline(admin.StackedInline):
 
 class ObserverAdmin(admin.ModelAdmin):
     readonly_fields = ['uuid',]
-    list_display = ['user', 'uuid']
+    list_display = ['user', 'uuid', 'role']
     actions=[mark_voided,]
 
 
@@ -75,13 +78,22 @@ class SubjectInline(admin.StackedInline):
 
 class LocationAdmin(admin.ModelAdmin):
     model = Location
-    list_display = ('name',)
+    list_display = ('name', 'uuid')
     list_filter = ('name',)
     
 class EventAdmin(admin.ModelAdmin):
     model = Event
 class PatientAdmin(admin.ModelAdmin):
     model=Patients
+    list_display = ['given_name', 'family_name', 'uuid','village']
+class AmbulanceDriverAdmin(admin.ModelAdmin):
+    model = AmbulanceDriver
+    list_display = [
+        'first_name',
+        'last_name', 
+        'phone_number',
+        'uuid'
+    ]
 admin.site.register(Concept, ConceptAdmin)
 admin.site.register(Relationship)
 admin.site.register(RelationshipCategory)
@@ -94,5 +106,5 @@ admin.site.register(Observer,ObserverAdmin)
 admin.site.register(Procedure,ProcedureAdmin)
 admin.site.register(Patients, PatientAdmin)
 admin.site.register(Event)
-
+admin.site.register(AmbulanceDriver, AmbulanceDriverAdmin)
 #admin.site.register(ClientEventLog, ClientEventLogAdmin)

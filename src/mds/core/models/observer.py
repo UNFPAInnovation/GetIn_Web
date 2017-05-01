@@ -30,5 +30,18 @@ class Observer(models.Model):
 
     voided = models.BooleanField(default=False)
 
+    role = models.CharField(max_length=64,
+        choices=(
+          ("vht","vht"),
+          ("midwife","midwife"),
+          ("admin","admin"),
+          ("none","none")
+          ),
+        default="none")
+
+    phone_number = models.CharField(max_length=12, blank=True)
+
+    locations = models.ManyToManyField('core.Location', blank=True)
+
     def __unicode__(self):
         return unicode(self.user)

@@ -41,7 +41,9 @@ __all__ = ['ConceptHandler',
            'DocHandler' ,
            'SessionHandler',
            'SubjectHandler',
-           'LocationHandler']
+           'LocationHandler',
+           'AmbulanceDriverHandler'
+      ]
 
 @logged     
 class SessionHandler(DispatchingHandler):
@@ -65,6 +67,7 @@ class SessionHandler(DispatchingHandler):
             
             username = data.get('username', 'empty')
             password = data.get('password','empty')
+            logging.info("Attempting login for %s" % username)
             if not settings.TARGET == 'SELF':
                 instance = User(username=username)
                 auth = {'username':username, 'password':password }
@@ -92,12 +95,14 @@ class SessionHandler(DispatchingHandler):
             else:
                 user = authenticate(username=username, password=password)
                 if user is not None:
-                    observer = Observer.objects.get(user=user)
-                    return succeed(observer.uuid)
+                    observer = Observer.objects.filter(user__username=user.username)
+                    observer = Observer.objects.all().prefetch_related('locations').filter(user__username=user.username)
+                    #observer = Observer.objects.prefetch_related('locations').filter(user__username=user.username)
+                    return succeed(observer)
                 else:
                     msg = "Invalid credentials"
                     logging.warn(msg)
-                    return fail(msg)
+                    return fail([], code=404, errors=[msg,])
         except Exception as e:
             msg = "Internal Server Error"
             logging.error(unicode(e))
@@ -153,7 +158,7 @@ class EncounterHandler(DispatchingHandler):
     form = EncounterForm
     fields = ("uuid",
         "concept", 
-        "observation",
+        ("observer", ("uuid",)),
         ("subject",("uuid",)),
         ("procedure",("title","uuid")),
         "created",
@@ -203,10 +208,18 @@ class ObserverHandler(DispatchingHandler):
     form = ObserverForm
     fields = (
         "uuid",
-        ("user",("username","is_superuser")),
+        ("user",(
+            "username",
+            "first_name",
+            "last_name",
+            "is_superuser",)
+            ),
         "modified",
         "created",
         "voided",
+        "role",
+        "phone_number",
+        "locations"
     )
     signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
 
@@ -246,26 +259,35 @@ class SubjectHandler(DispatchingHandler):
         "pnumber",
         "dob",
         "gender",
-        "holder_pNumber",
-        "LMD",
+        "holder_pnumber",
+        "lmd",
         "marital_status",
         "comment",
-        ("location",("name","uuid")),
-        "educational_level",
+        "location",
+        #("location",("name","uuid")),
+        "education_level",
         "contraceptive_use",
-        "ANC_status",
-        "ANC_visit",
-        "EDD",
+        "anc_status",
+        "anc_visit",
+        "edd",
         "receive_sms",
         "follow_up",
-        "CUG_status",
+        "cug_status",
         "bleeding",
         "fever",
         "swollen_feet",
         "blurred_vision",
         "modified",
         "created",
-        "voided" 
+        "voided" ,
+        "district",
+        "county",
+        "subcounty",
+        "parish",
+        "village",
+        "lmd",
+        "ambulance_need",
+        "ambulance_response"
     )
     model = Patients
     form = PatientForm
@@ -324,6 +346,16 @@ class ObserverHandler(DispatchingHandler):
     )
     signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
 
+class AmbulanceDriverHandler(DispatchingHandler):
+    allowed_methods = ("GET", "POST")
+    model = AmbulanceDriver
+    form = AmbulanceDriverForm
+    fields = (
+        "uuid",
+        "phone_number",
+        "first_name",
+        "last_name"
+    )
 
 def intake_handler(request,*args,**kwargs):
     pass
