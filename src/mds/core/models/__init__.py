@@ -11,7 +11,7 @@ from .device import Device
 from .encounter import Encounter
 from .events import Event
 from .instruction import Instruction
-from .location import Location
+from .location import *
 from .notification import Notification
 from .observation import Observation
 from .observer import Observer
@@ -31,7 +31,9 @@ __all__ = ['Concept', 'Relationship','RelationshipCategory',
            'Notification', 
            'Observation', 
            'Observer',
+           'Parish',
            'Procedure',
+           'Subcounty',
            'Subject',
            'Patients',
            'AmbulanceDriver',

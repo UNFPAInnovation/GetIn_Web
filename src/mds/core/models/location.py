@@ -8,11 +8,17 @@
 from django.db import models
 from mds.api.utils import make_uuid
 
+__all__ = [ 'Location',
+            'Parish',
+            'Subcounty'
+    ]
+
 class Location(models.Model):
     
     class Meta:
         app_label = "core"
-        
+        verbose_name = "village"
+    
     uuid = models.SlugField(max_length=36, unique=True, default=make_uuid, editable=False)
     """ A universally unique identifier """
     
@@ -20,6 +26,18 @@ class Location(models.Model):
     """A label for identifying the location"""
     
     code = models.IntegerField(blank=True)
+    parish = models.ForeignKey('Parish', blank=True, null=True)
     
     def __unicode__(self):
         return u'%s - %s' % (self.code,self.name)
+
+class Subcounty(models.Model):
+    class Meta:
+        app_label = "core"
+    name = models.CharField(max_length=255)
+    
+class Parish(models.Model):
+    class Meta:
+        app_label = "core"
+    name = models.CharField(max_length=255)
+    subcounty = models.ForeignKey('Subcounty')

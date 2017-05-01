@@ -94,6 +94,20 @@ class AmbulanceDriverAdmin(admin.ModelAdmin):
         'phone_number',
         'uuid'
     ]
+    
+class ParishAdmin(admin.ModelAdmin):
+    model = Parish
+    list_display = [
+        'name',
+        'subcounty'
+    ]
+
+class SubcountyAdmin(admin.ModelAdmin):
+    model = Subcounty
+    list_display = [
+        'name',
+    ]
+
 admin.site.register(Concept, ConceptAdmin)
 admin.site.register(Relationship)
 admin.site.register(RelationshipCategory)
@@ -107,4 +121,6 @@ admin.site.register(Procedure,ProcedureAdmin)
 admin.site.register(Patients, PatientAdmin)
 admin.site.register(Event)
 admin.site.register(AmbulanceDriver, AmbulanceDriverAdmin)
+admin.site.register(Parish, ParishAdmin)
+admin.site.register(Subcounty, SubcountyAdmin)
 #admin.site.register(ClientEventLog, ClientEventLogAdmin)
