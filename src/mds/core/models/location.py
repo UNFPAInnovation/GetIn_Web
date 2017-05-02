@@ -25,19 +25,25 @@ class Location(models.Model):
     name = models.CharField(max_length=255)
     """A label for identifying the location"""
     
-    code = models.IntegerField(blank=True)
+    code = models.IntegerField(blank=True, default=0)
     parish = models.ForeignKey('Parish', blank=True, null=True)
     
     def __unicode__(self):
-        return u'%s - %s' % (self.code,self.name)
+        return self.name
 
 class Subcounty(models.Model):
     class Meta:
         app_label = "core"
     name = models.CharField(max_length=255)
     
+    def __unicode__(self):
+        return self.name
+    
 class Parish(models.Model):
     class Meta:
         app_label = "core"
     name = models.CharField(max_length=255)
     subcounty = models.ForeignKey('Subcounty')
+    
+    def __unicode__(self):
+        return self.name
