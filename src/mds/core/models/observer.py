@@ -42,6 +42,8 @@ class Observer(models.Model):
     phone_number = models.CharField(max_length=12, blank=True)
 
     locations = models.ManyToManyField('core.Location', blank=True)
-
+    
+    subcounty = models.ForeignKey('core.Subcounty', blank=True, null=True)
+    
     def __unicode__(self):
         return unicode(self.user)
