@@ -156,8 +156,9 @@ class EncounterHandler(DispatchingHandler):
     allowed_methods = ('GET', 'POST','PUT')
     model = Encounter
     form = EncounterForm
-    fields = ("uuid",
-        "concept", 
+    fields = (
+        "uuid",
+        ("concept", ("uuid",)), 
         ("observer", ("uuid",)),
         ("subject",("uuid",)),
         ("procedure",("title","uuid")),
@@ -219,7 +220,8 @@ class ObserverHandler(DispatchingHandler):
         "voided",
         "role",
         "phone_number",
-        "locations"
+        "locations",
+        "subcounty"
     )
     signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
 
@@ -329,23 +331,6 @@ class CompoundFormHandler(object):
         pass
 
 # mds/core/handlers.py
-@logged        
-class ObserverHandler(DispatchingHandler):
-    """ Handles observer requests. """
-    allowed_methods = ('GET', 'POST','PUT')
-    model = Observer
-    form = ObserverForm
-    fields = (
-        "uuid",
-        ("user",("username","is_superuser")),
-        "modified",
-        "created",
-        "voided",
-        # New fields below
-        "role"
-    )
-    signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
-
 class AmbulanceDriverHandler(DispatchingHandler):
     allowed_methods = ("GET", "POST")
     model = AmbulanceDriver
@@ -354,7 +339,8 @@ class AmbulanceDriverHandler(DispatchingHandler):
         "uuid",
         "phone_number",
         "first_name",
-        "last_name"
+        "last_name",
+        "subcounty"
     )
 
 def intake_handler(request,*args,**kwargs):
