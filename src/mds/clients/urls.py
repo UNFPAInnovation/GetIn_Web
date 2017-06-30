@@ -8,5 +8,5 @@ admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    url(r'^$', 'clients.views.version', name="android"),
+    url(r'^$', 'mds.clients.views.version', name="android"),
     )
