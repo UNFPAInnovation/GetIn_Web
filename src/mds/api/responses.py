@@ -92,4 +92,4 @@ def error(exception, code=500):
     return response
 
 def unauthorized(message):
-    return fail(message, Codes.UNAUTHORIZED)
+    return fail(None, Codes.UNAUTHORIZED, errors=message)
