@@ -45,5 +45,7 @@ class Observer(models.Model):
     
     subcounty = models.ForeignKey('core.Subcounty', blank=True, null=True)
     
+    parishes = models.ManyToManyField('core.Parish', blank=True, null=True)
+    
     def __unicode__(self):
         return unicode(self.user)
