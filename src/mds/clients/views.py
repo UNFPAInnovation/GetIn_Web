@@ -4,7 +4,7 @@ import cjson
 from django.conf import settings
 from django.http import HttpResponse
 
-from mds.api.responses import JSONResponse, unauthorized
+from mds.api.responses import *
 from mds.clients.models import Client
 FPATH = "/media/clients/app-android.apk"
 VERSION = "2"
@@ -33,10 +33,8 @@ def version(request, *args, **kwargs):
             "version": -1,
             "app": ""
             }]
-    return JSONResponse(cjson.encode({
-        'status':'SUCCESS',
-        'code':200, 
-        'message': message}))
+    return json_succeed(**message)
+
 
 def invalid_file(request, fname='invalid.apk'):
     response = HttpResponse(
