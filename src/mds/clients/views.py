@@ -14,7 +14,7 @@ def version(request, *args, **kwargs):
     if not authenticated:
         result = []
         result.append("Invalid credentials")
-        return unauthorized(result)
+        return json_unauthorized(result)
 
     version = -1
     flavor = request.GET.get('flavor',None)
