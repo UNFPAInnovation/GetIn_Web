@@ -33,7 +33,7 @@ def version(request, *args, **kwargs):
             "version": -1,
             "app": ""
             }]
-    return json_succeed(**message)
+    return json_succeed(message)
 
 
 def invalid_file(request, fname='invalid.apk'):
