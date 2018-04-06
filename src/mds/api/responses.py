@@ -7,9 +7,14 @@ Created on Aug 11, 2012
 from django.http import HttpResponse
 import sys,traceback
 import collections
+import cjson
 
 def render_json_response(data):
     return JSONResponse(data)
+
+CONTENT_TYPE_JSON = "application/json; charset=utf-8"
+SUCCESS = 'SUCCESS'
+FAILURE = 'FAILURE'
 
 _CODES = {
     'OK':200,
@@ -54,18 +59,40 @@ class JSONResponse(HttpResponse):
                 message content
     """
     def __init__(self, data):
-        HttpResponse.__init__(self, data, mimetype="application/json; charset=utf-8")
-        self['X-JSON'] = data
+        super(JSONResponse, self).__init__(content_type=CONTENT_TYPE_JSON)
+        #self.write(cjson.encode(data))
+        #self['X-JSON'] = data
+
+class APIResponse(JSONResponse):
+    def __init__(self, status=SUCCESS, message=[], code=200, size=0, errors=[]):
+        super(APIResponse, self).__init__(
+            { "status":status, 
+            "message": message, 
+            "code":code,
+            "size":size, 
+            "errors":errors })
+            
+class JSONAPIResponse(HttpResponse):
+    def __init__(self, status=SUCCESS, message=[], code=200, size=0, errors=[]):
+        super(JSONAPIResponse, self).__init__(cjson.encode({ "status":status, 
+            "message": message, "code":code, "size":size, "errors":errors }),
+            content_type=CONTENT_TYPE_JSON)
 
 def fail(data, code=404, errors=[]):
     ''' Fail response as a python dict with data '''
-    response = {'status': 'FAILURE',
-                'code' : code,
-                'message': data,
-                'errors': errors, }
-    return response
+    return { "status": FAILURE, 
+             "message": data, 
+             "code":code, 
+             "size": 0, 
+             "errors":errors }
+    
+def bad_request(errors=[], exception=None):
+    if exception:
+        return error(exception, code=500)
+    else:
+        return fail(data, code=400, errors=errors )
 
-def succeed(data, code=200):
+def succeed(data, code=200, size=0):
     ''' Success response as a python dict with data '''
     '''
     msg = []
@@ -77,19 +104,33 @@ def succeed(data, code=200):
     except:
         msg.append(data)
     '''
-    #msg = data if isinstance(data,collections.Iterable) else data
     response = {'status': 'SUCCESS',
                 'code' : code,
-                'message': data, }
+                'message': data,
+                'size' : size }
     return response
 
 def error(exception, code=500):
-    errors = traceback.format_exception_only(*sys.exc_info()[:2])
-    response = {'status': 'FAILURE',
-                'code' : code,
-                'message': None,
-                'errors': errors, }
-    return response
+    #errors = [ x for x in traceback.format_exception_only(*sys.exc_info()[:2])]
+    errors = [ x.replace("\"","'").replace("\n",'') for x in traceback.format_tb(sys.exc_info()[2]) ]
+    return { "status": FAILURE, 
+             "message": [], 
+             "code":code, 
+             "size": 0, 
+             "errors":errors }
 
 def unauthorized(message):
-    return fail(None, Codes.UNAUTHORIZED, errors=message)
+    return fail([], code=404, errors=message)
+    
+def json_succeed(data, code=200, size=0):
+    return JSONAPIResponse(**succeed(data, code=code, size=size))
+    
+def json_fail(data, code=404, errors=[]):
+    return JSONAPIResponse(**fail(data, code=code, errors=errors))
+    
+def json_error(exception):
+    return JSONAPIResponse(**error(exception))
+    
+def json_unauthorized(message):
+    return JSONAPIResponse(**unauthorized(message))
+    
