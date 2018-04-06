@@ -87,4 +87,3 @@ def submit_crash(request):
             return json_fail([], code=400, errors=form.errors)
     else:
         return json_fail([], code=400)
-Press any key to continue...
