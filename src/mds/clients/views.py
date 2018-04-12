@@ -6,6 +6,7 @@ from django.http import HttpResponse
 
 from mds.api.responses import *
 from mds.clients.models import Client
+from mds.clients.forms import CrashReportForm
 FPATH = "/media/clients/app-android.apk"
 VERSION = "2"
 
