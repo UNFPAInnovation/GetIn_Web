@@ -7,7 +7,7 @@ class APIKeyAuthenticator(object):
             authenticated = False
             token = None
             try:
-                token_type, token = auth.split()
+                token_type, token = auth.split(":")
             except:
                 pass
             # Check authentication token
