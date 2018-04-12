@@ -11,7 +11,7 @@ class APIKeyAuthenticator(object):
             except:
                 pass
             # Check authentication token
-            if token and token == settings.API_KEY_UPDATE:
+            if token and token.strip() == settings.API_KEY_UPDATE:
                 authenticated = True
             setattr(request,'authenticated', authenticated)
         return None
