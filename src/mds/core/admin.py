@@ -109,6 +109,20 @@ class SubcountyAdmin(admin.ModelAdmin):
         'name',
     ]
 
+class CountyAdmin(admin.ModelAdmin):
+    model = County
+    list_display = [
+        'name',
+        'district'
+    ]
+
+class DistrictAdmin(admin.ModelAdmin):
+    model = District
+    list_display = [
+        'name',
+    ]
+
+
 admin.site.register(Concept, ConceptAdmin)
 admin.site.register(Relationship)
 admin.site.register(RelationshipCategory)
@@ -124,4 +138,6 @@ admin.site.register(Event)
 admin.site.register(AmbulanceDriver, AmbulanceDriverAdmin)
 admin.site.register(Parish, ParishAdmin)
 admin.site.register(Subcounty, SubcountyAdmin)
+admin.site.register(County, CountyAdmin)
+admin.site.register(District, DistrictAdmin)
 #admin.site.register(ClientEventLog, ClientEventLogAdmin)
