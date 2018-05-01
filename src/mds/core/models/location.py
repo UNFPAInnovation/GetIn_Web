@@ -37,7 +37,7 @@ class Subcounty(models.Model):
     class Meta:
         app_label = "core"
     name = models.CharField(max_length=255)
-    #district = models.ForeignKey('District', blank=True)
+    district = models.ForeignKey('District', blank=True, null=True)
 
     def __unicode__(self):
         return self.name
