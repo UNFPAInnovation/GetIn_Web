@@ -62,4 +62,4 @@ class Patients(Subject):
     ambulance_need  = models.CharField(choices=yes_no(), default="No", max_length=3, blank=True)
     ambulance_response  = models.CharField(choices=yes_no(), default="No", max_length=3, blank=True)
 
-
+    system_id = models.CharField(max_length=64, blank=True)

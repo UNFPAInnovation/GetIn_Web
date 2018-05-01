@@ -85,7 +85,7 @@ class EventAdmin(admin.ModelAdmin):
     model = Event
 class PatientAdmin(admin.ModelAdmin):
     model=Patients
-    list_display = ['given_name', 'family_name', 'uuid','village']
+    list_display = ['given_name', 'family_name', 'uuid','village', 'system_id']
 class AmbulanceDriverAdmin(admin.ModelAdmin):
     model = AmbulanceDriver
     list_display = [
