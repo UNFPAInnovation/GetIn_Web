@@ -37,5 +37,7 @@ __all__ = ['Concept', 'Relationship','RelationshipCategory',
            'Subject',
            'Patients',
            'AmbulanceDriver',
+           'County',
+           'District'
            #'Patient'
            ]
