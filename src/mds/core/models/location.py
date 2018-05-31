@@ -38,6 +38,7 @@ class Subcounty(models.Model):
         app_label = "core"
     name = models.CharField(max_length=255)
     district = models.ForeignKey('District', blank=True, null=True)
+    uuid = models.SlugField(max_length=36, default=make_uuid)
 
     def __unicode__(self):
         return self.name
@@ -47,7 +48,8 @@ class Parish(models.Model):
         app_label = "core"
     name = models.CharField(max_length=255)
     subcounty = models.ForeignKey('Subcounty')
-    
+    uuid = models.SlugField(max_length=36, default=make_uuid)
+
     def __unicode__(self):
         return self.name
 
@@ -55,6 +57,7 @@ class District(models.Model):
     class Meta:
         app_label = "core"
     name = models.CharField(max_length=255)
+    uuid = models.SlugField(max_length=36, default=make_uuid)
 
     def __unicode__(self):
         return self.name
@@ -64,6 +67,7 @@ class County(models.Model):
         app_label = "core"
     name = models.CharField(max_length=255)
     district = models.ForeignKey('District')
+    uuid = models.SlugField(max_length=36, default=make_uuid)
 
     def __unicode__(self):
         return self.name

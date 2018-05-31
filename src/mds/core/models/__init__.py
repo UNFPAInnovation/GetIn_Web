@@ -20,6 +20,7 @@ from .subject import Subject
 from .patients import Patients
 #from .patient import Patient
 from .ambulancedriver import AmbulanceDriver
+#from .sms_message import SMSMessage
 from mds.core.extensions.models import *
 
 __all__ = ['Concept', 'Relationship','RelationshipCategory',
@@ -38,6 +39,7 @@ __all__ = ['Concept', 'Relationship','RelationshipCategory',
            'Patients',
            'AmbulanceDriver',
            'County',
-           'District'
+           'District',
+           #'SMSMessage'
            #'Patient'
            ]
