@@ -85,6 +85,10 @@ extra_patterns = patterns(
 
     #location
     url(r'^location/$', rsrc_location, name='location-list'),
+    url(r'^parish/$', rsrc_parish, name='parish-list'),
+    url(r'^subcounty/$', rsrc_subcounty, name='subcounty-list'),
+    url(r'^county/$', rsrc_county, name='county-list'),
+    url(r'^district/$', rsrc_district, name='district-list'),
 
     #ambulance driver
     # fill in with same pattern as above - i.e. list and item

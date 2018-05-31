@@ -42,7 +42,11 @@ __all__ = ['ConceptHandler',
            'SessionHandler',
            'SubjectHandler',
            'LocationHandler',
-           'AmbulanceDriverHandler'
+           'AmbulanceDriverHandler',
+           'ParishHandler',
+           'SubcountyHandler',
+           'CountyHandler',
+           'DistrictHandler',
       ]
 
 @logged     
@@ -314,8 +318,40 @@ class LocationHandler(DispatchingHandler):
         "name",
         "uuid",
         "code",
+        "parish",
     )
 
+class ParishHandler(DispatchingHandler):
+    model = Parish
+    fields = (
+        "name",
+        "uuid",
+        "subcounty",
+    )
+
+class SubcountyHandler(DispatchingHandler):
+    model = Subcounty
+    fields = (
+        "name",
+        "uuid",
+        "district",
+        "county"
+    )
+
+class CountyHandler(DispatchingHandler):
+    model = County
+    fields = (
+        "name",
+        "uuid",
+        "district",
+    )
+    
+class DistrictHandler(DispatchingHandler):
+    model = District
+    fields = (
+        "name",
+        "uuid",
+    )
 class CompoundFormHandler(object):
     forms = {}
     """ A list of 2-tuples representing the names and forms on the page """

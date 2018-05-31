@@ -17,7 +17,11 @@ __all__ = [
     'rsrc_event',
     'rsrc_doc',
     'rsrc_session',
-    'rsrc_ambulancedriver'
+    'rsrc_ambulancedriver',
+    'rsrc_parish',
+    'rsrc_subcounty',
+    'rsrc_county',
+    'rsrc_district',
 ]
 
 rsrc_concept = Resource(ConceptHandler)
@@ -38,3 +42,8 @@ rsrc_event = Resource(EventHandler)
 rsrc_doc = Resource(DocHandler)
 rsrc_session = Resource(SessionHandler)
 rsrc_ambulancedriver = Resource(AmbulanceDriverHandler)
+
+rsrc_parish=Resource(ParishHandler)
+rsrc_subcounty=Resource(SubcountyHandler)
+rsrc_county=Resource(CountyHandler)
+rsrc_district=Resource(DistrictHandler)
