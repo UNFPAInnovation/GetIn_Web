@@ -32,9 +32,10 @@ class Observer(models.Model):
 
     role = models.CharField(max_length=64,
         choices=(
-          ("vht","vht"),
+          ("vht","CHEW"),
           ("midwife","midwife"),
           ("admin","admin"),
+          ("dho", "dho"),
           ("none","none")
           ),
         default="none")
