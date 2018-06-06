@@ -1,0 +1,3889 @@
+[
+{
+ "pk": 1, 
+ "model": "core.district", 
+ "fields": {
+  "name": "KANUNGU", 
+  "uuid": "d44a49d4-6c50-430f-9cff-89ab50891574"
+ }
+},
+{
+ "pk": 2, 
+ "model": "core.district", 
+ "fields": {
+  "name": "BUNDIBUGYO", 
+  "uuid": "eaed8ead-45c9-4049-9a0c-a1140bc9f39a"
+ }
+},
+{
+ "pk": 1, 
+ "model": "core.county", 
+ "fields": {
+  "name": "BWAMBA", 
+  "district": 2, 
+  "uuid": "e3d25bc8-5e46-4ea9-9a03-16a8af8829a2"
+ }
+},
+{
+ "pk": 1, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUTOGOTA TC", 
+  "district": 1, 
+  "uuid": "78a1deac-34b3-43ce-9c62-fa69b6a555f6"
+ }
+},
+{
+ "pk": 2, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KAMBUGA", 
+  "district": 1, 
+  "uuid": "9dec338e-bcf0-498b-9694-45b6329b7531"
+ }
+},
+{
+ "pk": 3, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KANYANTOROGO", 
+  "district": 1, 
+  "uuid": "0a0e3c77-719a-417b-bf1a-6a80ceffd434"
+ }
+},
+{
+ "pk": 4, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KATETE", 
+  "district": 1, 
+  "uuid": "6d24c5a0-5c32-454d-8b00-80f89e8766bc"
+ }
+},
+{
+ "pk": 5, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KAYONZA", 
+  "district": 1, 
+  "uuid": "3eba2559-df96-4b5c-a17d-5c79d1e6ce63"
+ }
+},
+{
+ "pk": 6, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KIHIHI", 
+  "district": 1, 
+  "uuid": "f95036f9-2e75-4633-bd32-18d88cff5826"
+ }
+},
+{
+ "pk": 7, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KINAABA", 
+  "district": 1, 
+  "uuid": "8cde7740-bf99-4d9b-b516-db8c491ca7ac"
+ }
+},
+{
+ "pk": 8, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KIRIMA", 
+  "district": 1, 
+  "uuid": "e600eb21-981c-4305-b8d7-b0a42259bdf7"
+ }
+},
+{
+ "pk": 9, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "MPUNGU", 
+  "district": 1, 
+  "uuid": "3dd8f1d0-d5b2-4e10-9d9d-6239650b0ae0"
+ }
+},
+{
+ "pk": 10, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NYAKINONI", 
+  "district": 1, 
+  "uuid": "d519f36f-7617-46a1-8fc0-692eeb3265eb"
+ }
+},
+{
+ "pk": 11, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NYAMIRAMA", 
+  "district": 1, 
+  "uuid": "d1c40473-9698-424d-a1b5-7cefdf99b726"
+ }
+},
+{
+ "pk": 12, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NYANGA", 
+  "district": 1, 
+  "uuid": "ca3821c6-482e-4530-9389-e0b88f7a34d4"
+ }
+},
+{
+ "pk": 13, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "RUGYEYO", 
+  "district": 1, 
+  "uuid": "89cbdf30-2ca5-4b93-8f1d-045e1966347d"
+ }
+},
+{
+ "pk": 14, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "RUTENGA", 
+  "district": 1, 
+  "uuid": "cdf93b12-b922-430c-8ec0-9518aae41fbb"
+ }
+},
+{
+ "pk": 16, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUBANDI", 
+  "district": 2, 
+  "uuid": "6fe7a5e1-e8eb-4f2f-9dc9-9e31d9d64f5d"
+ }
+},
+{
+ "pk": 17, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUBUKWANGA", 
+  "district": 2, 
+  "uuid": "fe02fd66-c544-467c-bcf0-bb21b4d82ef0"
+ }
+},
+{
+ "pk": 18, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUNDIBUGYO TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "499d659a-cdeb-4229-9274-318eaa749125"
+ }
+},
+{
+ "pk": 19, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUSARU", 
+  "district": 2, 
+  "uuid": "62aa189e-9fb7-454f-8045-164236aff68c"
+ }
+},
+{
+ "pk": 20, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NYAHUKA TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "96d06384-5538-4ba0-b8d5-bd00a7c1a461"
+ }
+},
+{
+ "pk": 21, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KIRUMYA", 
+  "district": 2, 
+  "uuid": "28d8683a-0daa-41b0-9d99-9dd05501565d"
+ }
+},
+{
+ "pk": 22, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KISUBBA", 
+  "district": 2, 
+  "uuid": "492e83c4-9ca6-49c2-a734-a568700e7b85"
+ }
+},
+{
+ "pk": 23, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "MIRAMBI", 
+  "district": 2, 
+  "uuid": "a927be87-8419-4333-b56e-e8a87e7a5092"
+ }
+},
+{
+ "pk": 24, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUNDINGOMA", 
+  "district": 2, 
+  "uuid": "cbd177ac-21e1-47b2-be17-7c9375e4ae69"
+ }
+},
+{
+ "pk": 25, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "TOKWE", 
+  "district": 2, 
+  "uuid": "e557beb5-0f97-4b22-8d0c-bece8cab71b3"
+ }
+},
+{
+ "pk": 26, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUSUNGA TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "d39c2a3e-a5ba-4722-8dae-5c3f67bc324a"
+ }
+},
+{
+ "pk": 27, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUGANIKERE TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "7078706b-0b23-426a-9d0e-48c9bec37ced"
+ }
+},
+{
+ "pk": 28, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "HARUGALI", 
+  "district": 2, 
+  "uuid": "dea2a46b-f1f6-4d35-80c5-23d0d6ab8dd9"
+ }
+},
+{
+ "pk": 29, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KASITU", 
+  "district": 2, 
+  "uuid": "5f6215bc-9f6f-4ec6-82df-c6fe7714e3a7"
+ }
+},
+{
+ "pk": 30, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NDUGUTU", 
+  "district": 2, 
+  "uuid": "c9782043-e275-4ab7-b6c7-e56102da403f"
+ }
+},
+{
+ "pk": 31, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUKONZO", 
+  "district": 2, 
+  "uuid": "7248d923-4a7b-4cb3-9e3c-b42c4f40746e"
+ }
+},
+{
+ "pk": 32, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NTOTORO", 
+  "district": 2, 
+  "uuid": "15b026be-afe3-4a63-a620-759d3c644211"
+ }
+},
+{
+ "pk": 33, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "SINDILA", 
+  "district": 2, 
+  "uuid": "61c3743e-5e7b-4fc3-bc99-2a335d4dd7ed"
+ }
+},
+{
+ "pk": 34, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NGAMBA", 
+  "district": 2, 
+  "uuid": "5126e031-98ec-4f6b-9716-a9fcbace23a2"
+ }
+},
+{
+ "pk": 35, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BURONDO", 
+  "district": 2, 
+  "uuid": "64b3bfb7-3eca-48a4-88ff-f7822fdb0a47"
+ }
+},
+{
+ "pk": 36, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "KAGUGU", 
+  "district": 2, 
+  "uuid": "499bb197-60f8-40e3-a88d-f1f0d26441bc"
+ }
+},
+{
+ "pk": 37, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "NTANDI TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "575e1b2c-2f75-42e3-b857-b02752395871"
+ }
+},
+{
+ "pk": 38, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "MABERE", 
+  "district": 2, 
+  "uuid": "57c37479-7699-45b7-9d93-4cd1771b3186"
+ }
+},
+{
+ "pk": 39, 
+ "model": "core.subcounty", 
+ "fields": {
+  "name": "BUTAMA-MITUNDA TOWN COUNCIL", 
+  "district": 2, 
+  "uuid": "dfea2507-6670-4362-8842-96973934d1ac"
+ }
+},
+{
+ "pk": 1, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 7, 
+  "name": "MUKIGWA", 
+  "uuid": "b13bd86e-970a-4b3e-beb7-379a49ffda79"
+ }
+},
+{
+ "pk": 2, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 1, 
+  "name": "WESTERN WARD", 
+  "uuid": "89a48b22-6c68-4630-9565-0932d1115f12"
+ }
+},
+{
+ "pk": 3, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 2, 
+  "name": "BUGONGI", 
+  "uuid": "6a6e0841-18b5-4b79-af33-3d10fad66a4d"
+ }
+},
+{
+ "pk": 4, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 3, 
+  "name": "BUREMA", 
+  "uuid": "a5a10c7a-c625-4c87-9eae-95144a4ab90c"
+ }
+},
+{
+ "pk": 5, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 3, 
+  "name": "KIHEMBE", 
+  "uuid": "58370b89-6a99-47c5-8365-9868fea0dba7"
+ }
+},
+{
+ "pk": 6, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 3, 
+  "name": "KISHENYI", 
+  "uuid": "52b10494-6f7f-4862-973d-589cf66cd0be"
+ }
+},
+{
+ "pk": 7, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 3, 
+  "name": "NYAMIGOYE", 
+  "uuid": "2239a69e-a73e-48bd-9a97-7e90b855ab80"
+ }
+},
+{
+ "pk": 8, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 4, 
+  "name": "KAYANJA", 
+  "uuid": "f929e58f-2dee-4584-a3bb-c998936b39b8"
+ }
+},
+{
+ "pk": 9, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 4, 
+  "name": "KISHURO", 
+  "uuid": "5b6d7a1d-d91a-44ce-a24e-418ff49ee7d9"
+ }
+},
+{
+ "pk": 10, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 4, 
+  "name": "NYAKISHOJWA", 
+  "uuid": "dcaf8cab-1c1a-46b6-a3c8-8e280fff297d"
+ }
+},
+{
+ "pk": 11, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 4, 
+  "name": "NYARURAMBI", 
+  "uuid": "3cacb685-5efb-408d-9de4-951e4955cb26"
+ }
+},
+{
+ "pk": 12, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 5, 
+  "name": "BUJENGWE", 
+  "uuid": "90ae220c-09bb-462a-bfdc-0fe5cf1f6d99"
+ }
+},
+{
+ "pk": 13, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 5, 
+  "name": "KARANGARA", 
+  "uuid": "8826feea-a5aa-4de2-98f9-700045993b2e"
+ }
+},
+{
+ "pk": 14, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 5, 
+  "name": "KYESHERO", 
+  "uuid": "835b516e-e1ff-4183-909a-30b44b4a2356"
+ }
+},
+{
+ "pk": 15, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 5, 
+  "name": "MUKONO", 
+  "uuid": "3bbbf2a9-2cee-4696-a6e2-1cbd2046db32"
+ }
+},
+{
+ "pk": 16, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 5, 
+  "name": "RUTENDERE", 
+  "uuid": "2ce4865c-9570-432d-a09e-5b345971b08c"
+ }
+},
+{
+ "pk": 17, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 6, 
+  "name": "KABUGA", 
+  "uuid": "e9656a95-ebbb-4020-ac25-c7257f9b5e0d"
+ }
+},
+{
+ "pk": 18, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 6, 
+  "name": "KIBIMBIRI", 
+  "uuid": "8b9421a5-89d0-4c90-b5c1-d38583689a2e"
+ }
+},
+{
+ "pk": 19, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 6, 
+  "name": "RUSOROZA", 
+  "uuid": "3f311957-06ca-45d1-a987-3a6a91bb0186"
+ }
+},
+{
+ "pk": 20, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 7, 
+  "name": "KAMAKOMA", 
+  "uuid": "1a3bc45e-83f8-4a39-ab3e-747fbb30a003"
+ }
+},
+{
+ "pk": 21, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 7, 
+  "name": "KANYAMATEMBE", 
+  "uuid": "8aad1af7-1170-40c7-938e-a2cada01c4d7"
+ }
+},
+{
+ "pk": 22, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 7, 
+  "name": "KIZIIBA", 
+  "uuid": "bb4e9355-10c0-44da-9af4-13f22e7ac976"
+ }
+},
+{
+ "pk": 23, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 7, 
+  "name": "KYAMUKOMBE", 
+  "uuid": "2f696709-fe64-4cb7-b015-a1fad2f151d7"
+ }
+},
+{
+ "pk": 24, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 8, 
+  "name": "BUSHURA", 
+  "uuid": "80d3a8c6-2629-4c6a-8f8e-54a1524d12a3"
+ }
+},
+{
+ "pk": 25, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 8, 
+  "name": "KIHANDA", 
+  "uuid": "d4551f6f-ce2c-489e-8051-5512d2a4a228"
+ }
+},
+{
+ "pk": 26, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 8, 
+  "name": "RUBIMBWA", 
+  "uuid": "85758656-9c35-4ebb-b3f4-432d356f23b8"
+ }
+},
+{
+ "pk": 27, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 8, 
+  "name": "RUTUGUNDA", 
+  "uuid": "788d1f59-ecaf-416d-b5ba-d4df5abde3f3"
+ }
+},
+{
+ "pk": 28, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 9, 
+  "name": "BUREMBA", 
+  "uuid": "54af4888-ec24-45e9-a451-0e3285e5674f"
+ }
+},
+{
+ "pk": 29, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 9, 
+  "name": "MPUNGU", 
+  "uuid": "26dfe468-2a91-40b2-a642-3636bbb68df5"
+ }
+},
+{
+ "pk": 30, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 9, 
+  "name": "MURAMBA", 
+  "uuid": "9c6d4628-9d6e-49b5-a45d-b3e93b653191"
+ }
+},
+{
+ "pk": 31, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 9, 
+  "name": "NGARA", 
+  "uuid": "04b702b3-cfc9-468a-a5f9-186e7e6813eb"
+ }
+},
+{
+ "pk": 32, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 10, 
+  "name": "KANYAMBEHO", 
+  "uuid": "b61884a2-d52b-463d-bc20-9c141a8dec64"
+ }
+},
+{
+ "pk": 33, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 10, 
+  "name": "KARUBEIZI", 
+  "uuid": "6dd96e58-f3a8-47d3-a923-3bb61a872e3b"
+ }
+},
+{
+ "pk": 34, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 10, 
+  "name": "NYAKINONI", 
+  "uuid": "c4b0f15b-0ca7-474c-ada5-19b034f22b06"
+ }
+},
+{
+ "pk": 35, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 10, 
+  "name": "SAMARIA", 
+  "uuid": "2b2be1fe-ca43-4214-803d-bb78be6889ff"
+ }
+},
+{
+ "pk": 36, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "KIGARAMA", 
+  "uuid": "083feb0b-a386-49d3-977c-8d017b762ae7"
+ }
+},
+{
+ "pk": 37, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "MASHAKU", 
+  "uuid": "70f1f898-dde2-4df5-96e9-c819b309cc3b"
+ }
+},
+{
+ "pk": 38, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "NTUNGWA", 
+  "uuid": "f7a67967-7e28-4e28-b7fe-6bfccbbc6056"
+ }
+},
+{
+ "pk": 39, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "NYAKASHURE", 
+  "uuid": "2e18813c-bdcd-4a28-9fdf-ab94ac5c9551"
+ }
+},
+{
+ "pk": 40, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "NYARURAMBI", 
+  "uuid": "5589da46-e8d2-42a7-be47-715b664f97fc"
+ }
+},
+{
+ "pk": 41, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 11, 
+  "name": "RUSHAKA", 
+  "uuid": "0aa9d0dc-4351-4d99-ba2b-02ea36a9e6ca"
+ }
+},
+{
+ "pk": 42, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 12, 
+  "name": "BUKORWE", 
+  "uuid": "8a964e07-0cf1-4665-ac9b-b6ecd56f650c"
+ }
+},
+{
+ "pk": 43, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 12, 
+  "name": "KAMAHE", 
+  "uuid": "3fad4fbd-2ccb-4981-8b85-b75999fab1f6"
+ }
+},
+{
+ "pk": 44, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 12, 
+  "name": "NKUNDA", 
+  "uuid": "cf6c76e9-b750-4937-9f59-08f07f83f230"
+ }
+},
+{
+ "pk": 45, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 12, 
+  "name": "NYANGA", 
+  "uuid": "603e6060-056e-4394-a46c-cef44b784f6e"
+ }
+},
+{
+ "pk": 46, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 13, 
+  "name": "KATUNGU", 
+  "uuid": "d90b9047-8b45-470e-96d0-8b5d08851b68"
+ }
+},
+{
+ "pk": 47, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 13, 
+  "name": "KAYUNGWE", 
+  "uuid": "1bf1f4e5-f37e-40bc-a4f1-b8469b4f2513"
+ }
+},
+{
+ "pk": 48, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 13, 
+  "name": "KITOJO", 
+  "uuid": "5b56d91d-1c44-4ba9-bf3a-781c74661d16"
+ }
+},
+{
+ "pk": 49, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 13, 
+  "name": "MISHENYI", 
+  "uuid": "cbc18cc3-9e1a-4a00-bdb8-0b0df8a1eb9d"
+ }
+},
+{
+ "pk": 50, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 13, 
+  "name": "NYARURAMBI", 
+  "uuid": "1915df2b-80cc-404f-8772-507383d16089"
+ }
+},
+{
+ "pk": 51, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 14, 
+  "name": "KATOJO", 
+  "uuid": "b3fb1954-babd-4a65-a41d-9983a6f38d20"
+ }
+},
+{
+ "pk": 52, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 14, 
+  "name": "MAFUUGA", 
+  "uuid": "fc355ddd-5d89-43dc-98aa-d04aa104da0c"
+ }
+},
+{
+ "pk": 53, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 14, 
+  "name": "MURAMBA", 
+  "uuid": "7ebe6936-f3c7-4588-a5a1-c7859d8d3b82"
+ }
+},
+{
+ "pk": 54, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "NJUULE", 
+  "uuid": "09b4af46-3236-4c3e-822e-de751379c324"
+ }
+},
+{
+ "pk": 55, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "NYAMBARO", 
+  "uuid": "c7a4020c-bb2d-45e0-a185-dab2ccb7c881"
+ }
+},
+{
+ "pk": 56, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "TOMBWE", 
+  "uuid": "fb9d9e22-0a4f-43a3-a8f1-b920043bfa73"
+ }
+},
+{
+ "pk": 57, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "NJULE EAST", 
+  "uuid": "39f790df-063d-4187-984e-923128ca3fef"
+ }
+},
+{
+ "pk": 58, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "KANANKULUNGO", 
+  "uuid": "9628f355-327d-4e67-bd01-13c01aa09bfe"
+ }
+},
+{
+ "pk": 59, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 17, 
+  "name": "BUBUKWANGA", 
+  "uuid": "939a27e4-3159-4b81-b004-695ff34a57a3"
+ }
+},
+{
+ "pk": 60, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 16, 
+  "name": "TOMBWE", 
+  "uuid": "326785dd-d32b-43c5-a386-188afa39cc4c"
+ }
+},
+{
+ "pk": 61, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 17, 
+  "name": "MAMPONGYA", 
+  "uuid": "94929fbe-f39e-421c-8797-b930c55e9c6f"
+ }
+},
+{
+ "pk": 62, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 17, 
+  "name": "HUMYA", 
+  "uuid": "37ef797f-394e-4a09-b60c-b621f286453b"
+ }
+},
+{
+ "pk": 63, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 17, 
+  "name": "BUNYAMWERA", 
+  "uuid": "0386493a-38d1-4eb5-9330-a2460f1fff72"
+ }
+},
+{
+ "pk": 64, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 17, 
+  "name": "SAARA", 
+  "uuid": "364e27c2-ef07-4e12-a2ef-7f59cb2cf3af"
+ }
+},
+{
+ "pk": 65, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "BUMADU", 
+  "uuid": "e707665f-1b3c-463f-bee6-a36ffa124dc2"
+ }
+},
+{
+ "pk": 66, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "BUMADU WARD", 
+  "uuid": "2d7057aa-4e46-4f6e-9619-53b88dadfb75"
+ }
+},
+{
+ "pk": 67, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "BUMATE WARD", 
+  "uuid": "db014053-cd09-49cc-8b80-d5ced0111d0d"
+ }
+},
+{
+ "pk": 68, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "BUNDIBUGYO CENTRAL WARD", 
+  "uuid": "6c192767-2c42-4cd1-b66c-3b45b7aeb13c"
+ }
+},
+{
+ "pk": 69, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "HAMUTITI WARD", 
+  "uuid": "bb808dec-f764-4ddf-8c30-95ac5feee340"
+ }
+},
+{
+ "pk": 70, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "KANYANSIMBI WARD", 
+  "uuid": "5fbacd6b-85b7-481e-8c17-7254dec37a1a"
+ }
+},
+{
+ "pk": 71, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 18, 
+  "name": "BIMARA WARD", 
+  "uuid": "87722396-a37d-4148-85f8-98b991a11138"
+ }
+},
+{
+ "pk": 72, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 19, 
+  "name": "BUGOMBWA", 
+  "uuid": "c4a74ad4-ce51-4dbb-9804-b0fd0d8dea86"
+ }
+},
+{
+ "pk": 73, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 19, 
+  "name": "BUSARU", 
+  "uuid": "36810928-9c72-494f-b234-f237e1b21e8c"
+ }
+},
+{
+ "pk": 74, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 19, 
+  "name": "KIRINDI", 
+  "uuid": "bcf6f2e2-7009-4fe3-907f-9ffb8a2e4891"
+ }
+},
+{
+ "pk": 75, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 19, 
+  "name": "BUNDIMWENDI", 
+  "uuid": "bc096d09-a1cf-491c-ad2f-81b676016d1d"
+ }
+},
+{
+ "pk": 76, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 19, 
+  "name": "KINYANTE", 
+  "uuid": "84659808-7492-43eb-b59a-86c383400925"
+ }
+},
+{
+ "pk": 77, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "BUNDIKAHUNGU WARD", 
+  "uuid": "768368a7-8978-4c5f-b684-e3767a99ed2c"
+ }
+},
+{
+ "pk": 78, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "BUNDIKUYALI WARD", 
+  "uuid": "fa18489e-389c-4cfd-9346-a65f31ceb0f7"
+ }
+},
+{
+ "pk": 79, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "BHAMBA WARD", 
+  "uuid": "ee6827b3-15a9-40ea-a5ee-4e9e54fc8abb"
+ }
+},
+{
+ "pk": 80, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "BUNDIMULINGA WARD", 
+  "uuid": "61b7d18d-add6-448f-8c92-4a410147b9cc"
+ }
+},
+{
+ "pk": 81, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "KAHUNGU WARD", 
+  "uuid": "ab60b70e-f4f3-497e-86a0-709991f47ecd"
+ }
+},
+{
+ "pk": 82, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "KASIRI WARD", 
+  "uuid": "d0222d12-d36c-451b-9d7a-ae8e3661105c"
+ }
+},
+{
+ "pk": 83, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "NYAHUKA WARD", 
+  "uuid": "c179ee2f-2db2-4607-80b2-63817c7fc298"
+ }
+},
+{
+ "pk": 84, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 20, 
+  "name": "SIMBYA NKURU WARD", 
+  "uuid": "9df5a91f-a7b4-4adb-a03c-ff2887a338ac"
+ }
+},
+{
+ "pk": 85, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 21, 
+  "name": "BUNDIMURANGYA", 
+  "uuid": "af06dc06-3c74-4f90-915e-7291953cca4d"
+ }
+},
+{
+ "pk": 86, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 21, 
+  "name": "KATUMBA", 
+  "uuid": "5ecca22c-02c6-4754-8317-42344d1c01b2"
+ }
+},
+{
+ "pk": 87, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 21, 
+  "name": "BUNDIKEKI", 
+  "uuid": "161be060-d882-421e-a7e1-b12bf69b5c1b"
+ }
+},
+{
+ "pk": 88, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 21, 
+  "name": "BUNDIBUTURO", 
+  "uuid": "bf48b539-b269-4b5a-946d-91d80fa9e9b6"
+ }
+},
+{
+ "pk": 89, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 21, 
+  "name": "NYANKIRO", 
+  "uuid": "ec24ecf1-1021-4ea1-8c87-d8fc8f0950e7"
+ }
+},
+{
+ "pk": 90, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 22, 
+  "name": "BUSORU", 
+  "uuid": "1101e1c3-9896-416a-b657-f9cfb30c56ac"
+ }
+},
+{
+ "pk": 91, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 22, 
+  "name": "HAKITARA", 
+  "uuid": "b60528d5-7f2d-4d1d-8a31-7563e1915db0"
+ }
+},
+{
+ "pk": 92, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 22, 
+  "name": "KAGHEMA", 
+  "uuid": "43e92aed-ebbb-435b-aa47-578f6ddeac9e"
+ }
+},
+{
+ "pk": 93, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 22, 
+  "name": "KISUBA", 
+  "uuid": "0f720acc-c3e1-4d98-a076-0e6271df2839"
+ }
+},
+{
+ "pk": 94, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 22, 
+  "name": "BUBOMBOLI", 
+  "uuid": "333d47f8-ab86-4dba-bf11-a937ab60a2bc"
+ }
+},
+{
+ "pk": 95, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 23, 
+  "name": "MIRAMBI", 
+  "uuid": "19e84862-d70c-4b1b-bb33-27394c0b7401"
+ }
+},
+{
+ "pk": 96, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 23, 
+  "name": "KUKA", 
+  "uuid": "3f847835-997c-4a3c-a569-656a63a1bc63"
+ }
+},
+{
+ "pk": 97, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 23, 
+  "name": "NJANJA", 
+  "uuid": "e3dd935d-ac28-43a2-a848-20390e9e66b4"
+ }
+},
+{
+ "pk": 98, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 24, 
+  "name": "BUNDINGOMA", 
+  "uuid": "de66fb56-5001-4422-88c6-eea0bdabdbcf"
+ }
+},
+{
+ "pk": 99, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 24, 
+  "name": "BUNDINAMANDI", 
+  "uuid": "d3287c62-b6c8-4f61-8afc-5e6861e1609d"
+ }
+},
+{
+ "pk": 100, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 24, 
+  "name": "BUSU", 
+  "uuid": "909967d4-0c63-4470-9df7-bcdefaab0c1d"
+ }
+},
+{
+ "pk": 101, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 24, 
+  "name": "NAKASOHE", 
+  "uuid": "642c83e0-af5f-45d4-8d7c-071b0d111e76"
+ }
+},
+{
+ "pk": 102, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 25, 
+  "name": "BUNDINYAMA", 
+  "uuid": "fceec7c7-3a40-4355-80ce-ce5bbdcbbf6e"
+ }
+},
+{
+ "pk": 103, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 25, 
+  "name": "MATAISA", 
+  "uuid": "4f72dc5d-30f6-4c33-97b5-713bed9b3861"
+ }
+},
+{
+ "pk": 104, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 25, 
+  "name": "BUNYARUTA", 
+  "uuid": "4cc7f9d4-00ed-491c-bbe2-88bed035096e"
+ }
+},
+{
+ "pk": 105, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 25, 
+  "name": "BUHANDA", 
+  "uuid": "90c38104-6921-4098-8b15-c78b58e63d87"
+ }
+},
+{
+ "pk": 106, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 25, 
+  "name": "HAKITENGYA", 
+  "uuid": "cf3e170b-5977-448d-8c31-c6af7d70d158"
+ }
+},
+{
+ "pk": 107, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 26, 
+  "name": "BUSUNGA WARD", 
+  "uuid": "8ca01b2b-57a3-49a5-9bf6-6fa937e06e5c"
+ }
+},
+{
+ "pk": 108, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 26, 
+  "name": "MULUNGITANWA WARD", 
+  "uuid": "4c837e82-09b8-42a5-813e-1901196c12ae"
+ }
+},
+{
+ "pk": 109, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 26, 
+  "name": "LAMIA WARD", 
+  "uuid": "a278cf55-f3a1-4181-870b-cacc3454ab5c"
+ }
+},
+{
+ "pk": 110, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 26, 
+  "name": "RUTOBO WARD", 
+  "uuid": "828bd868-3e64-458b-83bd-4e02f90f5077"
+ }
+},
+{
+ "pk": 111, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 26, 
+  "name": "BUSUNGA CENTRAL WARD", 
+  "uuid": "9e08c695-7c75-4743-b8fa-dfd9ba57b457"
+ }
+},
+{
+ "pk": 112, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "BUGANIKIRE WARD", 
+  "uuid": "1e18dadc-c15d-4ba5-b806-3c4db5593713"
+ }
+},
+{
+ "pk": 113, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "SIMBYA WARD", 
+  "uuid": "54c2b552-8730-45db-9d55-17bf72203687"
+ }
+},
+{
+ "pk": 114, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "BUNDIKAKEMBA WARD", 
+  "uuid": "d80b9828-5470-434e-a820-13717b52c439"
+ }
+},
+{
+ "pk": 115, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "KYAMAIZI WARD", 
+  "uuid": "caf15b11-9e49-4b22-8de7-2419b83eed04"
+ }
+},
+{
+ "pk": 116, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "NKISYA WARD", 
+  "uuid": "9c36349c-8773-41a5-b905-c9ff804e9218"
+ }
+},
+{
+ "pk": 117, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 27, 
+  "name": "NYAHUNGU WARD", 
+  "uuid": "373b0d27-3d95-40c1-bc1c-9d473b5f0409"
+ }
+},
+{
+ "pk": 118, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 28, 
+  "name": "BUPOMBOLI", 
+  "uuid": "db20ba4a-f5e6-42c4-885b-9f644cd917fc"
+ }
+},
+{
+ "pk": 119, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 28, 
+  "name": "KASULENGE", 
+  "uuid": "3fe259a0-3103-449a-a819-b0bf382a9f83"
+ }
+},
+{
+ "pk": 120, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 28, 
+  "name": "NGITE", 
+  "uuid": "e99f323f-4861-4c4a-807d-9891847a6930"
+ }
+},
+{
+ "pk": 121, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 28, 
+  "name": "BUMATE", 
+  "uuid": "ae495c3b-f06f-456e-87cd-8c1ac33e8338"
+ }
+},
+{
+ "pk": 122, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 28, 
+  "name": "KALEYALEYA", 
+  "uuid": "b3ae152d-7fd4-4d5f-8707-9548998bd6b9"
+ }
+},
+{
+ "pk": 123, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 29, 
+  "name": "KASITU", 
+  "uuid": "a9e77c8c-031b-4507-8537-637b0232746e"
+ }
+},
+{
+ "pk": 124, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 29, 
+  "name": "NDALIBANA", 
+  "uuid": "fac1de35-29b8-4850-8060-3ba38994b78f"
+ }
+},
+{
+ "pk": 125, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 29, 
+  "name": "KATWAKALI", 
+  "uuid": "128d9f04-d4ad-4cb4-9ecc-1b387441471a"
+ }
+},
+{
+ "pk": 126, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 29, 
+  "name": "MUNGUNI", 
+  "uuid": "eaab4165-8b02-405f-bc78-65a593783b68"
+ }
+},
+{
+ "pk": 127, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 30, 
+  "name": "BUTAMA", 
+  "uuid": "0a795423-af26-4400-a5a8-2435eaaa68b4"
+ }
+},
+{
+ "pk": 128, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 30, 
+  "name": "KASANZI", 
+  "uuid": "3fd98c7e-58ce-412d-aefe-33e0d8576420"
+ }
+},
+{
+ "pk": 129, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 31, 
+  "name": "BUKANGAMA", 
+  "uuid": "f3bcd492-9fd8-486f-8db3-a9a8872400c9"
+ }
+},
+{
+ "pk": 130, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 31, 
+  "name": "BUSAMBA", 
+  "uuid": "33767a3d-b3ab-40c7-b878-c6a8a3675618"
+ }
+},
+{
+ "pk": 131, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 31, 
+  "name": "BUHUNDU", 
+  "uuid": "38a520e0-3d70-413c-be71-71d49fd35da0"
+ }
+},
+{
+ "pk": 132, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 31, 
+  "name": "BUNGHUHA", 
+  "uuid": "83da72da-6b21-4fac-9933-00d24c612413"
+ }
+},
+{
+ "pk": 133, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 31, 
+  "name": "IRAMBURA", 
+  "uuid": "24de33a5-9df6-48ea-81c7-a98b437ce225"
+ }
+},
+{
+ "pk": 134, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "BUGANDO", 
+  "uuid": "1ac1d806-1a8c-41be-8e35-2f998c081cd5"
+ }
+},
+{
+ "pk": 135, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "NTOTORO", 
+  "uuid": "d716a8a8-8b07-4dd5-b812-3c79a2775914"
+ }
+},
+{
+ "pk": 136, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "KANYANSIRI", 
+  "uuid": "1f88b2f4-a761-4ef8-a228-a1580de846fc"
+ }
+},
+{
+ "pk": 137, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "KINYANKENDE", 
+  "uuid": "fb1ed86c-3825-49eb-922e-36a650ea42f4"
+ }
+},
+{
+ "pk": 138, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "NYASORO", 
+  "uuid": "a05038d6-8fb2-424c-ba7f-552a4a486515"
+ }
+},
+{
+ "pk": 139, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 32, 
+  "name": "BUHUNDU", 
+  "uuid": "f3e6abdc-84cb-4758-9dfc-ab2896399e97"
+ }
+},
+{
+ "pk": 140, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 33, 
+  "name": "BUNYANGULE", 
+  "uuid": "e72fdd50-b0e7-4ca5-99ef-6fa3a4402b74"
+ }
+},
+{
+ "pk": 141, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 33, 
+  "name": "KAKUKA", 
+  "uuid": "d60c2d8c-5af9-474b-b01e-0feabf62facf"
+ }
+},
+{
+ "pk": 142, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 33, 
+  "name": "NYANKONDA", 
+  "uuid": "a2508af8-7e26-4489-9825-c4d563a56205"
+ }
+},
+{
+ "pk": 143, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 34, 
+  "name": "KIKYO", 
+  "uuid": "da8ab499-1c26-4f6e-bcab-5029e0cc8f35"
+ }
+},
+{
+ "pk": 144, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 34, 
+  "name": "NGAMBA", 
+  "uuid": "9b366219-335c-4d04-8dfc-cd5f7efcb507"
+ }
+},
+{
+ "pk": 145, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 34, 
+  "name": "BUTOLYA", 
+  "uuid": "f6c67c95-0b61-4c05-a9b6-9abd760fb9e9"
+ }
+},
+{
+ "pk": 146, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 34, 
+  "name": "BURAMBAGIRA", 
+  "uuid": "2ae87baf-082e-46a1-af89-76b3fffceb73"
+ }
+},
+{
+ "pk": 147, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 35, 
+  "name": "BURONDO", 
+  "uuid": "d4a90628-064f-42fa-ba58-2e209d13099c"
+ }
+},
+{
+ "pk": 148, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 35, 
+  "name": "KARAMBI", 
+  "uuid": "4d9c7281-aadc-485e-a893-aa89fadad8ae"
+ }
+},
+{
+ "pk": 149, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 35, 
+  "name": "MWEMBI", 
+  "uuid": "7e25666f-ca82-44c7-91c8-a3cf13a47767"
+ }
+},
+{
+ "pk": 150, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 35, 
+  "name": "SEMPAYA", 
+  "uuid": "09bf26fe-76da-4448-b8fc-ec2387dbc381"
+ }
+},
+{
+ "pk": 151, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 36, 
+  "name": "BUNYAMWERA", 
+  "uuid": "27989e99-6955-45bc-8e6d-8f43b38c0179"
+ }
+},
+{
+ "pk": 152, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 36, 
+  "name": "NKURANGA", 
+  "uuid": "03738918-12fe-4d2d-8bd7-d71e6713499f"
+ }
+},
+{
+ "pk": 153, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 36, 
+  "name": "KAGHUGHU", 
+  "uuid": "cd459f6a-f69c-421f-9ca7-33823b3fbd3a"
+ }
+},
+{
+ "pk": 154, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 36, 
+  "name": "KYEBUMBA", 
+  "uuid": "c6317425-5e68-4045-9d98-abf5040feb90"
+ }
+},
+{
+ "pk": 155, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "NTANDI WARD", 
+  "uuid": "4c03421a-11bd-481e-9fff-6abb06cff83c"
+ }
+},
+{
+ "pk": 156, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "BUNDIMASOLI WARD", 
+  "uuid": "4bcb95d8-b718-46b2-b269-9ca88ffcfceb"
+ }
+},
+{
+ "pk": 157, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "KAHUMBU WARD", 
+  "uuid": "8d2d7681-ef5b-4bb5-a5d1-1e36ed101ffb"
+ }
+},
+{
+ "pk": 158, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "KIRAMBI WARD", 
+  "uuid": "537a3dd4-db2e-4c49-872d-a03a9383d8ba"
+ }
+},
+{
+ "pk": 159, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "MPULYA WARD", 
+  "uuid": "2b6ee35d-21a6-441d-83cb-979ced9eb81b"
+ }
+},
+{
+ "pk": 160, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 37, 
+  "name": "NYABUGESERA WARD", 
+  "uuid": "68cbdd01-de8d-4154-aa66-ff7d81cfb91f"
+ }
+},
+{
+ "pk": 161, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 38, 
+  "name": "MABERE", 
+  "uuid": "03843052-9d46-4f15-89fa-76f3c565e6a2"
+ }
+},
+{
+ "pk": 162, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 38, 
+  "name": "MALOMBA", 
+  "uuid": "a6435291-d44a-4ef4-bdfc-69ba0b7d6856"
+ }
+},
+{
+ "pk": 163, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 38, 
+  "name": "NYAKIGHOMA", 
+  "uuid": "17d425e4-828d-4dda-b2e4-9543aaabaa61"
+ }
+},
+{
+ "pk": 164, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 38, 
+  "name": "MAHINYI", 
+  "uuid": "ef5d8e72-8ee5-4971-b394-0879ab425e6a"
+ }
+},
+{
+ "pk": 165, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "MUTUNDA WARD", 
+  "uuid": "514573cd-26c5-4695-a2b2-f46a7b982687"
+ }
+},
+{
+ "pk": 166, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "BUNDIMBUGA WARD", 
+  "uuid": "4f2d0b94-7c3c-4553-8dad-dd56785fc1aa"
+ }
+},
+{
+ "pk": 167, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "BUNDINJONGYA WARD", 
+  "uuid": "bc2f17d3-d001-404b-9c8b-82e89dfc2bf5"
+ }
+},
+{
+ "pk": 168, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "BUTAMA CENTRAL WARD", 
+  "uuid": "913e5fef-1a94-4b66-8bef-bf1321e76d14"
+ }
+},
+{
+ "pk": 169, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "KAHIMBI WARD", 
+  "uuid": "0e7a9c85-2120-4d56-b7a8-dc1be2ba30c3"
+ }
+},
+{
+ "pk": 170, 
+ "model": "core.parish", 
+ "fields": {
+  "subcounty": 39, 
+  "name": "KITENGYA WARD", 
+  "uuid": "5aee35b5-dc59-4cf1-ae3e-17de0f03db44"
+ }
+},
+{
+ "pk": 1, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 1, 
+  "code": 0, 
+  "uuid": "b9933a1b-6d58-4ba8-bffa-72ff79584a62", 
+  "name": "BUREBANE"
+ }
+},
+{
+ "pk": 2, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 2, 
+  "code": 0, 
+  "uuid": "36fef3cf-6b23-48f0-a88a-9d9d1684e740", 
+  "name": "MUNYAGA"
+ }
+},
+{
+ "pk": 3, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 2, 
+  "code": 0, 
+  "uuid": "ac90d6ec-fe5a-49e0-b59d-2fe23c130d2a", 
+  "name": "NYAKIREHE"
+ }
+},
+{
+ "pk": 4, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 3, 
+  "code": 0, 
+  "uuid": "760d2d6d-bddf-4620-bcf7-b76f6d6942d4", 
+  "name": "IHEMBE"
+ }
+},
+{
+ "pk": 5, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 3, 
+  "code": 0, 
+  "uuid": "87f3f62a-ac9e-4809-89f0-7ec684376c82", 
+  "name": "MUKOLOGYERO"
+ }
+},
+{
+ "pk": 6, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 3, 
+  "code": 0, 
+  "uuid": "101086bf-f24f-4a33-b606-cccae02472c3", 
+  "name": "RUSHEBEYA"
+ }
+},
+{
+ "pk": 7, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 4, 
+  "code": 0, 
+  "uuid": "49eafa33-7258-418a-a779-7231aad44fea", 
+  "name": "KASHANDA"
+ }
+},
+{
+ "pk": 8, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 4, 
+  "code": 0, 
+  "uuid": "8beada05-cd47-4668-b063-186edf6275a7", 
+  "name": "NYARUHANGA"
+ }
+},
+{
+ "pk": 9, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 5, 
+  "code": 0, 
+  "uuid": "a9ccc66e-7d60-475b-9903-a962a0854229", 
+  "name": "KANYASHANDE"
+ }
+},
+{
+ "pk": 10, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 5, 
+  "code": 0, 
+  "uuid": "10bf82df-8fa0-4c4b-9ae7-083a18583222", 
+  "name": "NYABIREHE"
+ }
+},
+{
+ "pk": 11, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 5, 
+  "code": 0, 
+  "uuid": "372fa0ad-5ae3-4552-9d00-e51037c6b202", 
+  "name": "NYAKASHARARA"
+ }
+},
+{
+ "pk": 12, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 5, 
+  "code": 0, 
+  "uuid": "7e096609-bd23-4ac6-936d-f9b883a3d27f", 
+  "name": "RUKARARA"
+ }
+},
+{
+ "pk": 13, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 6, 
+  "code": 0, 
+  "uuid": "094acf7e-881d-4b02-8024-5e04e2392f51", 
+  "name": "BURAMBIRA"
+ }
+},
+{
+ "pk": 14, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 6, 
+  "code": 0, 
+  "uuid": "555f1f45-47b7-440c-ab69-9e81d07ddbc8", 
+  "name": "KISHAYO"
+ }
+},
+{
+ "pk": 15, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 7, 
+  "code": 0, 
+  "uuid": "655e28fe-d3f2-4c76-85f8-21102d12b8c1", 
+  "name": "BUGIRI"
+ }
+},
+{
+ "pk": 16, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 7, 
+  "code": 0, 
+  "uuid": "7848d890-14f8-4732-8343-a61a2c6d159b", 
+  "name": "NYABIHOKO"
+ }
+},
+{
+ "pk": 17, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 8, 
+  "code": 0, 
+  "uuid": "938e7a2c-0136-4022-988c-148677a8e42b", 
+  "name": "KIREMBE"
+ }
+},
+{
+ "pk": 18, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 9, 
+  "code": 0, 
+  "uuid": "dd14f4cf-dea9-4434-bfd5-0ce14de8f2d8", 
+  "name": "IBUMBWE"
+ }
+},
+{
+ "pk": 19, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 10, 
+  "code": 0, 
+  "uuid": "821f13bb-67c3-491d-9f88-08ca37d8abc7", 
+  "name": "KANYAMISINGA"
+ }
+},
+{
+ "pk": 20, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 10, 
+  "code": 0, 
+  "uuid": "2b22fda1-1f40-4836-91d8-a60b483c1c7d", 
+  "name": "NYARUHANGA"
+ }
+},
+{
+ "pk": 21, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 11, 
+  "code": 0, 
+  "uuid": "5e1e7d5b-d576-48d4-a086-3fdd3ae140e9", 
+  "name": "KITOOHA"
+ }
+},
+{
+ "pk": 22, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 11, 
+  "code": 0, 
+  "uuid": "1c8936de-6a51-4e11-a9c1-22aad10bac57", 
+  "name": "RWEYEREZO"
+ }
+},
+{
+ "pk": 23, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 12, 
+  "code": 0, 
+  "uuid": "4715d948-07ee-429f-8ad1-ab5ec3f58bb9", 
+  "name": "BYUMBA"
+ }
+},
+{
+ "pk": 24, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 12, 
+  "code": 0, 
+  "uuid": "3ee73a13-f656-481a-81ff-0e191f715473", 
+  "name": "KAZAHI"
+ }
+},
+{
+ "pk": 25, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 12, 
+  "code": 0, 
+  "uuid": "7c53171b-2d0b-454d-a5fb-7e75251ad0f5", 
+  "name": "MUSHORERO"
+ }
+},
+{
+ "pk": 26, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 12, 
+  "code": 0, 
+  "uuid": "adf1214b-43ff-49b1-83d0-afc6f1922d20", 
+  "name": "NYAMISHAMBA"
+ }
+},
+{
+ "pk": 27, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 13, 
+  "code": 0, 
+  "uuid": "490347ea-7122-4dc3-93f5-6c1880abd6c4", 
+  "name": "KAGOMA"
+ }
+},
+{
+ "pk": 28, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 13, 
+  "code": 0, 
+  "uuid": "906103f5-b7bd-44b6-923a-3a3de20a2b0c", 
+  "name": "NTEGYERE"
+ }
+},
+{
+ "pk": 29, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 13, 
+  "code": 0, 
+  "uuid": "0d3871fa-7942-447e-a1ff-3922c115e517", 
+  "name": "NYAKAHANGA"
+ }
+},
+{
+ "pk": 30, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 14, 
+  "code": 0, 
+  "uuid": "5d809855-24b7-4a1e-a2b0-fcbd6ca22b8d", 
+  "name": "KAKUREIJU"
+ }
+},
+{
+ "pk": 31, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 14, 
+  "code": 0, 
+  "uuid": "e1c673ef-bc33-48c6-a68b-72e2a2e3edb5", 
+  "name": "KASHENYI"
+ }
+},
+{
+ "pk": 32, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 14, 
+  "code": 0, 
+  "uuid": "0a3db88c-786f-4824-b752-e3ce88e505cb", 
+  "name": "KATIBA"
+ }
+},
+{
+ "pk": 33, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 15, 
+  "code": 0, 
+  "uuid": "726b9202-a6c5-482e-9f43-15a10b741a00", 
+  "name": "IRARO"
+ }
+},
+{
+ "pk": 34, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 15, 
+  "code": 0, 
+  "uuid": "59eb18e6-94e8-4a1d-9464-5a693aa79400", 
+  "name": "MUKONGORO"
+ }
+},
+{
+ "pk": 35, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 15, 
+  "code": 0, 
+  "uuid": "900f2094-3159-42af-b608-51592d2545db", 
+  "name": "RUBONA"
+ }
+},
+{
+ "pk": 36, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 16, 
+  "code": 0, 
+  "uuid": "ab797e5b-b704-4b5f-ae49-ecf348c66acc", 
+  "name": "KANGYEYO"
+ }
+},
+{
+ "pk": 37, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 16, 
+  "code": 0, 
+  "uuid": "87b9e7c8-6574-475a-9735-fe9c248ba6d8", 
+  "name": "KYANDAGO"
+ }
+},
+{
+ "pk": 38, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 17, 
+  "code": 0, 
+  "uuid": "ca4916a1-9c96-42a7-8626-6b2c983d5c27", 
+  "name": "BUSHERE"
+ }
+},
+{
+ "pk": 39, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 17, 
+  "code": 0, 
+  "uuid": "f3e7c3b2-d21f-4209-b1f6-722da87d2062", 
+  "name": "KABUGA"
+ }
+},
+{
+ "pk": 40, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 17, 
+  "code": 0, 
+  "uuid": "73e52715-a673-4954-a675-3d1b98982a10", 
+  "name": "KIRURUMA"
+ }
+},
+{
+ "pk": 41, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 17, 
+  "code": 0, 
+  "uuid": "25247a10-aed7-4f0a-ab14-0cd9b2319768", 
+  "name": "MATANDA"
+ }
+},
+{
+ "pk": 42, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "b0ac910c-97d2-4115-ab27-acc09bde28f4", 
+  "name": "GROUP FARM A"
+ }
+},
+{
+ "pk": 43, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 17, 
+  "code": 0, 
+  "uuid": "cfe03130-1efc-47e9-b7be-5541430090b3", 
+  "name": "KAMEME"
+ }
+},
+{
+ "pk": 44, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "f395f0a2-e3cc-4384-a65d-dee6bdb980a2", 
+  "name": "KANYINABURIMANO"
+ }
+},
+{
+ "pk": 45, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "bf3a1955-8da9-4416-94ab-dd99560fc8e3", 
+  "name": "KIRURUMA"
+ }
+},
+{
+ "pk": 46, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "69f18009-e146-4ec6-9223-27f7eeec5045", 
+  "name": "KYENYABUTONGO"
+ }
+},
+{
+ "pk": 47, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "1bf8cc8a-d409-4749-9fd5-46f7ed75b8c0", 
+  "name": "OMWIRANGIZO"
+ }
+},
+{
+ "pk": 48, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "11afcc9f-265a-4903-9935-43c58beaa15b", 
+  "name": "RUSOROZA"
+ }
+},
+{
+ "pk": 49, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 18, 
+  "code": 0, 
+  "uuid": "5a6bbaa9-1bd0-4803-97da-2ad9e581d8ec", 
+  "name": "RWEREERE"
+ }
+},
+{
+ "pk": 50, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "4557e708-11b5-4638-a2b9-d11c2f9a2efa", 
+  "name": "IBAMBIRO"
+ }
+},
+{
+ "pk": 51, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "6f8ef150-ce89-4d12-9d12-a19d624c8980", 
+  "name": "KASHOJWA"
+ }
+},
+{
+ "pk": 52, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "9a468a76-6066-47a4-baab-e68bb91353be", 
+  "name": "KAZINGA LOWER"
+ }
+},
+{
+ "pk": 53, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "c1e6eb4e-0c23-4227-ad5d-0f3621deab51", 
+  "name": "KIBIMBIRI"
+ }
+},
+{
+ "pk": 54, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "4496961a-f32c-43b5-95f5-b4edf4b7237e", 
+  "name": "KYAKATARANGI"
+ }
+},
+{
+ "pk": 55, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "db43530d-436a-4b9b-8459-cb7bc3ac7eb9", 
+  "name": "KYUMBUGU"
+ }
+},
+{
+ "pk": 56, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "1503c1a8-8d6c-4e53-9644-502937d385fc", 
+  "name": "NYARURAMBI"
+ }
+},
+{
+ "pk": 57, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "8f535a84-d9aa-447c-9b13-84850e71ffe0", 
+  "name": "RWERERE"
+ }
+},
+{
+ "pk": 58, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 19, 
+  "code": 0, 
+  "uuid": "34308123-58fa-44c7-9f32-10524abb1fc9", 
+  "name": "TUKUNDANE"
+ }
+},
+{
+ "pk": 59, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 20, 
+  "code": 0, 
+  "uuid": "02b3e2d2-32a2-4493-908b-03bf6a778c20", 
+  "name": "ISERERERO"
+ }
+},
+{
+ "pk": 60, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 20, 
+  "code": 0, 
+  "uuid": "e5d9e3c4-9384-4d25-bd2c-1951b71cba49", 
+  "name": "KAMAKOMA"
+ }
+},
+{
+ "pk": 61, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 20, 
+  "code": 0, 
+  "uuid": "b8a5201c-5b93-404a-a039-542cca14daba", 
+  "name": "RUGYEYO"
+ }
+},
+{
+ "pk": 62, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 20, 
+  "code": 0, 
+  "uuid": "4d6b9a4e-43a8-448a-9137-61a03d212c26", 
+  "name": "RUNYAMI"
+ }
+},
+{
+ "pk": 63, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 21, 
+  "code": 0, 
+  "uuid": "fce0ded0-960f-435f-a9e7-8f80fe6ab069", 
+  "name": "KANYAGOGO"
+ }
+},
+{
+ "pk": 64, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 21, 
+  "code": 0, 
+  "uuid": "234ec849-cbcf-4b7b-bb04-625204fd7498", 
+  "name": "KANYAMATEMBE"
+ }
+},
+{
+ "pk": 65, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 21, 
+  "code": 0, 
+  "uuid": "735767d1-8b85-4791-aa3d-6f60214d2aa5", 
+  "name": "NYABIREHE"
+ }
+},
+{
+ "pk": 66, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 22, 
+  "code": 0, 
+  "uuid": "6e00ad2e-0689-4029-b3c1-90dfad09dbf6", 
+  "name": "KACWAMBA"
+ }
+},
+{
+ "pk": 67, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 22, 
+  "code": 0, 
+  "uuid": "badfc881-5572-4823-ad63-8243dbd6b65f", 
+  "name": "KIZENGA"
+ }
+},
+{
+ "pk": 68, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 22, 
+  "code": 0, 
+  "uuid": "ff3f18b0-b881-47e3-a613-e3d8eae325d5", 
+  "name": "KIZIIBA"
+ }
+},
+{
+ "pk": 69, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 23, 
+  "code": 0, 
+  "uuid": "6218ee90-9840-477a-8993-688410fdc752", 
+  "name": "BAKUNDENE"
+ }
+},
+{
+ "pk": 70, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 23, 
+  "code": 0, 
+  "uuid": "d52189ba-c938-4002-91ac-5db07af7635a", 
+  "name": "KITOBI"
+ }
+},
+{
+ "pk": 71, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 23, 
+  "code": 0, 
+  "uuid": "da3f389f-f951-417b-b6e4-c2f0cb4d1df0", 
+  "name": "KYAMUKOMBE"
+ }
+},
+{
+ "pk": 72, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 1, 
+  "code": 0, 
+  "uuid": "30b19dd8-fcf7-47a6-a61a-517e9eb53d14", 
+  "name": "KIKANGAGA"
+ }
+},
+{
+ "pk": 73, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 1, 
+  "code": 0, 
+  "uuid": "46250347-0755-456e-9d17-104900bff50d", 
+  "name": "MUGANDU"
+ }
+},
+{
+ "pk": 74, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 1, 
+  "code": 0, 
+  "uuid": "dc5a47c7-8f26-4778-9934-4b920db182b5", 
+  "name": "ISHAYA"
+ }
+},
+{
+ "pk": 75, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 1, 
+  "code": 0, 
+  "uuid": "5e6303e9-43ff-4d78-a867-edcf0490a866", 
+  "name": "MUKIRWA"
+ }
+},
+{
+ "pk": 76, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 24, 
+  "code": 0, 
+  "uuid": "a0376ee2-54cc-403b-b6f3-480f93d32ad9", 
+  "name": "BUGANDARO"
+ }
+},
+{
+ "pk": 77, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 24, 
+  "code": 0, 
+  "uuid": "13dcc552-83be-4289-9382-4bdce4993c22", 
+  "name": "KAZURU"
+ }
+},
+{
+ "pk": 78, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "662803ce-deda-4743-be7a-cf73afa2896c", 
+  "name": "BUJERENGYE"
+ }
+},
+{
+ "pk": 79, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "ae2c99bf-bdd6-479b-99da-34fdb7447531", 
+  "name": "IBARYA"
+ }
+},
+{
+ "pk": 80, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "555d47b9-8090-4383-9c83-3c89e46a5ed5", 
+  "name": "KATEMBE"
+ }
+},
+{
+ "pk": 81, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "24238af6-dbf2-4cda-b59f-025b44114b5e", 
+  "name": "KIHUMURO"
+ }
+},
+{
+ "pk": 82, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "b1fd2cb7-952c-480b-add0-3e74a9769a7a", 
+  "name": "NYAKAGYEZI"
+ }
+},
+{
+ "pk": 83, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "5d4f1600-144e-4ecb-8502-4d876d893e4d", 
+  "name": "NYAKARAMBI"
+ }
+},
+{
+ "pk": 84, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "92aba882-9b66-466e-ad80-6667134410ea", 
+  "name": "NYAKATOOMA"
+ }
+},
+{
+ "pk": 85, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "0485ed28-7c98-415f-ad14-8e81b3e37fcf", 
+  "name": "NYAKIBUGA"
+ }
+},
+{
+ "pk": 86, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "86b05774-bdef-416e-9f7c-d05b70ceb83f", 
+  "name": "NYAMIZI"
+ }
+},
+{
+ "pk": 87, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "bf42e750-cd39-46f6-9118-29a6f46c716f", 
+  "name": "NYARUHARO"
+ }
+},
+{
+ "pk": 88, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "c67fd2a4-9c51-43e4-863d-ce6138f6c6b9", 
+  "name": "OMURWAMBU"
+ }
+},
+{
+ "pk": 89, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "a1f025fd-b20f-4c05-9270-2331216727a9", 
+  "name": "RURAMA"
+ }
+},
+{
+ "pk": 90, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "869be23e-fdb8-43d5-8736-aea1bcf5ca9d", 
+  "name": "RUTONDE"
+ }
+},
+{
+ "pk": 91, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "c5a3d077-e3c0-4b8a-8a6a-f51f5da8e6d0", 
+  "name": "RWENDAHI"
+ }
+},
+{
+ "pk": 92, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "f247439a-facb-41f3-8987-6dfbb9be3986", 
+  "name": "RWENKYENDE"
+ }
+},
+{
+ "pk": 93, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "5216d885-405e-4a78-bc5a-333c78a8a331", 
+  "name": "BUKONO"
+ }
+},
+{
+ "pk": 94, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "911d0d64-9699-421c-9df5-b5f66faaf043", 
+  "name": "KAJUBWE"
+ }
+},
+{
+ "pk": 95, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "13e21a58-6dac-4c51-8854-73126fcf8e95", 
+  "name": "KASHAKI"
+ }
+},
+{
+ "pk": 96, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "46351802-a5ea-4efa-b52c-975af21afb65", 
+  "name": "KASOONI"
+ }
+},
+{
+ "pk": 97, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "1afdccf8-6002-4d82-ae6f-d7b314ce750f", 
+  "name": "KITUNGA"
+ }
+},
+{
+ "pk": 98, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "731d2dae-a046-41e9-bd45-de1605f8fdfc", 
+  "name": "NYAKABUNGO"
+ }
+},
+{
+ "pk": 99, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 26, 
+  "code": 0, 
+  "uuid": "cbd3a877-b4a3-4ae4-9636-71690a756115", 
+  "name": "NYARWEMARIRA"
+ }
+},
+{
+ "pk": 100, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 25, 
+  "code": 0, 
+  "uuid": "5304b8ca-dfa9-4b16-958e-89bff863c70a", 
+  "name": "RUHEZA"
+ }
+},
+{
+ "pk": 101, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "853a1bd8-9075-4406-8b7e-61db232eeb1d", 
+  "name": "BUGARAMA-NKAMBA"
+ }
+},
+{
+ "pk": 102, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "574754f0-2eac-49b2-81a5-d569449823d7", 
+  "name": "BUHAMBA"
+ }
+},
+{
+ "pk": 103, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "c9ce5472-6c89-420e-bef4-c60b07591313", 
+  "name": "KANYANKYENDE"
+ }
+},
+{
+ "pk": 104, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "13996d95-b913-4f30-a50a-8c3d77ac5f5a", 
+  "name": "KATUNGU"
+ }
+},
+{
+ "pk": 105, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "41a5313d-8aa3-4ba6-adfd-e88809bfda99", 
+  "name": "KITONGO"
+ }
+},
+{
+ "pk": 106, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "4096517a-c87f-4a05-9a7b-4ccbaee6bddb", 
+  "name": "KYEIJANGA"
+ }
+},
+{
+ "pk": 107, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "cbbfe28f-64ce-41ef-8a48-0cc20abf0e94", 
+  "name": "MABAARE"
+ }
+},
+{
+ "pk": 108, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "df6eb8cf-0c0a-4e0e-9845-abe795f04049", 
+  "name": "RUTOOMA"
+ }
+},
+{
+ "pk": 109, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 27, 
+  "code": 0, 
+  "uuid": "2e29c32d-b07f-46f6-98c2-9adaeeec1ca9", 
+  "name": "RUTOORO"
+ }
+},
+{
+ "pk": 110, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 28, 
+  "code": 0, 
+  "uuid": "20c49adc-f2ce-4c60-a923-ac60d3bc4963", 
+  "name": "BWEYENGYEZO"
+ }
+},
+{
+ "pk": 111, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 28, 
+  "code": 0, 
+  "uuid": "aba453d3-571b-4b8c-9447-8c7d41a9a83e", 
+  "name": "HAKIKOME"
+ }
+},
+{
+ "pk": 112, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 28, 
+  "code": 0, 
+  "uuid": "316a4b32-39a5-4ad2-b8b2-ac3c6a906cb0", 
+  "name": "KARUKARA"
+ }
+},
+{
+ "pk": 113, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 28, 
+  "code": 0, 
+  "uuid": "3119a239-a526-4078-ae14-2db95992f5e4", 
+  "name": "KATUNDA"
+ }
+},
+{
+ "pk": 114, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 28, 
+  "code": 0, 
+  "uuid": "21355b66-07b3-4432-8616-2b094c1e4d12", 
+  "name": "RUKUNGWE"
+ }
+},
+{
+ "pk": 115, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 29, 
+  "code": 0, 
+  "uuid": "61a00075-d731-4487-ad39-4de9c0197945", 
+  "name": "KANYASHOGI"
+ }
+},
+{
+ "pk": 116, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 29, 
+  "code": 0, 
+  "uuid": "09b360a2-acca-486c-918d-5155e0466b19", 
+  "name": "MURUKORE"
+ }
+},
+{
+ "pk": 117, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 29, 
+  "code": 0, 
+  "uuid": "3de02964-87d2-467b-aeeb-5739fca114bd", 
+  "name": "MURUSHASHA"
+ }
+},
+{
+ "pk": 118, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 29, 
+  "code": 0, 
+  "uuid": "5fce0f3f-5cdb-4398-a29f-d79775a54bc1", 
+  "name": "NYAMIZO"
+ }
+},
+{
+ "pk": 119, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 30, 
+  "code": 0, 
+  "uuid": "6f7fd60e-32ea-404d-95f6-1f54b3e5c2aa", 
+  "name": "KARAMBI"
+ }
+},
+{
+ "pk": 120, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 30, 
+  "code": 0, 
+  "uuid": "3b77a09c-d1af-4779-8ee4-f7f3c3eb9708", 
+  "name": "KIBINGO"
+ }
+},
+{
+ "pk": 121, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 30, 
+  "code": 0, 
+  "uuid": "3e007b25-04cd-4898-a3a9-1bb16161d3e6", 
+  "name": "KYAMBEYA"
+ }
+},
+{
+ "pk": 122, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 31, 
+  "code": 0, 
+  "uuid": "47ae5efc-82d3-4185-ba64-145d704fa275", 
+  "name": "BUSHEGENYI"
+ }
+},
+{
+ "pk": 123, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 31, 
+  "code": 0, 
+  "uuid": "abf32bbc-21ce-404e-97a4-99321c265736", 
+  "name": "KAGUNGA"
+ }
+},
+{
+ "pk": 124, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 31, 
+  "code": 0, 
+  "uuid": "25f8c03b-d1da-4206-9f3d-583a8da373c0", 
+  "name": "KIGAAGA"
+ }
+},
+{
+ "pk": 125, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 31, 
+  "code": 0, 
+  "uuid": "56affd7b-02e2-4074-a678-4cb8bc6fedc3", 
+  "name": "KYOGO"
+ }
+},
+{
+ "pk": 126, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 32, 
+  "code": 0, 
+  "uuid": "076bf91c-0595-4435-b99a-191b9dcc3bf3", 
+  "name": "BURUHUKIRO"
+ }
+},
+{
+ "pk": 127, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 32, 
+  "code": 0, 
+  "uuid": "aca2f641-ee0d-4e36-908b-9faa2cf18e11", 
+  "name": "KANYAMBEHO"
+ }
+},
+{
+ "pk": 128, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 32, 
+  "code": 0, 
+  "uuid": "bc5248ca-b845-4c12-80b7-63ccc6aff29a", 
+  "name": "KASIRO"
+ }
+},
+{
+ "pk": 129, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 32, 
+  "code": 0, 
+  "uuid": "8ddd4355-c495-446e-b145-e866d5b6d2ff", 
+  "name": "NYAKAHITA"
+ }
+},
+{
+ "pk": 130, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 32, 
+  "code": 0, 
+  "uuid": "35eeffed-04f1-4b75-9254-e5ae2c6e4387", 
+  "name": "NYAKAYAGA"
+ }
+},
+{
+ "pk": 131, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "e8a66038-235e-4bc9-b75b-fe3b4ba7694e", 
+  "name": "BUHUMURIRO"
+ }
+},
+{
+ "pk": 132, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "a3204987-c556-42d1-b8d3-d5707c2604bb", 
+  "name": "KAMUSHWA"
+ }
+},
+{
+ "pk": 133, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "1c9ef385-ae7a-4d74-866c-8b2e6bce1ac4", 
+  "name": "MURUHURA"
+ }
+},
+{
+ "pk": 134, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "79c1e88c-91f4-4876-9367-7564c387b055", 
+  "name": "NYAMABALE"
+ }
+},
+{
+ "pk": 135, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "db0c02b4-585a-4fee-8c20-9ab31ccfceee", 
+  "name": "NYAMIYAGA"
+ }
+},
+{
+ "pk": 136, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "7c5e061e-766d-47e0-8bd6-820129268814", 
+  "name": "OMUKIBUNGO"
+ }
+},
+{
+ "pk": 137, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "7fd86096-fefc-48dc-b353-38feccbb1e32", 
+  "name": "OMUKIRWA"
+ }
+},
+{
+ "pk": 138, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "7ae6c6aa-7635-4482-8ddd-3ee95268455c", 
+  "name": "RWAMAHAMBA"
+ }
+},
+{
+ "pk": 139, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 33, 
+  "code": 0, 
+  "uuid": "a4e09e8c-ff9a-4e6b-84b6-da1817df5584", 
+  "name": "RWANGOBOKA"
+ }
+},
+{
+ "pk": 140, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 34, 
+  "code": 0, 
+  "uuid": "f9cd9054-3140-4ba6-b162-84c5d1b2beae", 
+  "name": "KARONDE"
+ }
+},
+{
+ "pk": 141, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 34, 
+  "code": 0, 
+  "uuid": "c2458667-0960-40af-a0e2-763684616ecf", 
+  "name": "MPANGANGO"
+ }
+},
+{
+ "pk": 142, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 34, 
+  "code": 0, 
+  "uuid": "77dce413-d767-4996-8b0f-8c0c1edda6d2", 
+  "name": "NYAKINONI"
+ }
+},
+{
+ "pk": 143, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "96099379-b713-42ea-9ff9-d6489b00b902", 
+  "name": "BUSHOGYE- A"
+ }
+},
+{
+ "pk": 144, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "d0ca9eef-8855-4a41-8aa4-155fa2d7307d", 
+  "name": "BUSHOGYE- B"
+ }
+},
+{
+ "pk": 145, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "66ad8482-5a0e-4198-a93b-5c14bd5ef71d", 
+  "name": "KIRURUMA"
+ }
+},
+{
+ "pk": 146, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "ae5a07b7-7b50-4402-87ab-dc7756ed8709", 
+  "name": "NYAKARAMBI"
+ }
+},
+{
+ "pk": 147, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "a8f0cdfa-35e4-4ddb-aae6-8171ceb88805", 
+  "name": "NYAKASHASHURE"
+ }
+},
+{
+ "pk": 148, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 35, 
+  "code": 0, 
+  "uuid": "7b62f008-244b-46a2-9b96-f2599e2f3ceb", 
+  "name": "SAMARIA"
+ }
+},
+{
+ "pk": 149, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 36, 
+  "code": 0, 
+  "uuid": "78337ea4-31c0-4393-a1d3-0bd5886630f9", 
+  "name": "AHAKIBUNGO LCI"
+ }
+},
+{
+ "pk": 150, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 36, 
+  "code": 0, 
+  "uuid": "691460a5-be8f-486f-a9c8-c32b50647ad9", 
+  "name": "KARONI LCI"
+ }
+},
+{
+ "pk": 151, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 36, 
+  "code": 0, 
+  "uuid": "3e44f74c-44e4-4be2-817c-4f0749a47671", 
+  "name": "OMUKIRWA LCI"
+ }
+},
+{
+ "pk": 152, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 36, 
+  "code": 0, 
+  "uuid": "f290c951-e1aa-4405-b72e-7c338ee67565", 
+  "name": "SAMARIA LCI"
+ }
+},
+{
+ "pk": 153, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 37, 
+  "code": 0, 
+  "uuid": "9a5616a7-a991-47d5-b4bf-f51c7a514f89", 
+  "name": "KAYENJE LCI"
+ }
+},
+{
+ "pk": 154, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 37, 
+  "code": 0, 
+  "uuid": "20938aee-e1d1-4572-bc8c-423bd88f6b21", 
+  "name": "KAZINDIRO"
+ }
+},
+{
+ "pk": 155, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 37, 
+  "code": 0, 
+  "uuid": "30738f2c-ba08-4d74-8b6d-1da4e31afbe7", 
+  "name": "MASHAKU I LCI"
+ }
+},
+{
+ "pk": 156, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 38, 
+  "code": 0, 
+  "uuid": "01e596e4-e7db-41c0-a026-c1418d4a0716", 
+  "name": "KAGUNGA LCI"
+ }
+},
+{
+ "pk": 157, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 38, 
+  "code": 0, 
+  "uuid": "1408d35d-1dd9-4678-82b7-437d16b767b2", 
+  "name": "KANIABIZO LCI"
+ }
+},
+{
+ "pk": 158, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 38, 
+  "code": 0, 
+  "uuid": "5daf5af9-6349-482d-9b81-458eb3f716d0", 
+  "name": "OMUKISHAHA LCI"
+ }
+},
+{
+ "pk": 159, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 39, 
+  "code": 0, 
+  "uuid": "ea3827f4-c3ec-46db-822d-f1b88903f127", 
+  "name": "KARONI LCI"
+ }
+},
+{
+ "pk": 160, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 39, 
+  "code": 0, 
+  "uuid": "c060dc20-f491-4dea-ae4c-377636d8e0e8", 
+  "name": "KARUKONDO LCI"
+ }
+},
+{
+ "pk": 161, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 39, 
+  "code": 0, 
+  "uuid": "10a3375b-2337-4caf-85e5-f41536d1c3c0", 
+  "name": "KIBARAMA LCI"
+ }
+},
+{
+ "pk": 162, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 40, 
+  "code": 0, 
+  "uuid": "4839d9c3-d550-4e0b-9182-6208465cde04", 
+  "name": "MPANGANGO"
+ }
+},
+{
+ "pk": 163, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 40, 
+  "code": 0, 
+  "uuid": "b8cfc752-b6fe-458f-a00a-3ae211998a11", 
+  "name": "NYAMIYAGA"
+ }
+},
+{
+ "pk": 164, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 41, 
+  "code": 0, 
+  "uuid": "2543338e-2ce8-41b3-a301-6cebabb2bc80", 
+  "name": "KIRURUMA LCI"
+ }
+},
+{
+ "pk": 165, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 41, 
+  "code": 0, 
+  "uuid": "a16e6fce-a6b1-4e7a-a853-a6c66d5269f1", 
+  "name": "MASHOOKO LCI"
+ }
+},
+{
+ "pk": 166, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 41, 
+  "code": 0, 
+  "uuid": "292950ff-6357-4459-a785-e90ab09afa39", 
+  "name": "NYARUHUNGYE"
+ }
+},
+{
+ "pk": 167, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 42, 
+  "code": 0, 
+  "uuid": "83d8c2f8-bb30-4cd2-8bda-1f3d38176bb5", 
+  "name": "BUKORWE"
+ }
+},
+{
+ "pk": 168, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 42, 
+  "code": 0, 
+  "uuid": "c62b4772-1e39-4bc2-8539-31b5c106f9c4", 
+  "name": "NYAKABUNGO"
+ }
+},
+{
+ "pk": 169, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 42, 
+  "code": 0, 
+  "uuid": "47ca2df4-186d-45bf-a59e-c04d1b1152a4", 
+  "name": "NYAKASHOZI"
+ }
+},
+{
+ "pk": 170, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 43, 
+  "code": 0, 
+  "uuid": "93922a1d-012b-494a-90f8-e68449d37f8e", 
+  "name": "BWERAMAANA"
+ }
+},
+{
+ "pk": 171, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 43, 
+  "code": 0, 
+  "uuid": "2a037251-f206-4cc1-b2d9-e17be0e24e25", 
+  "name": "NYARUTEMBE"
+ }
+},
+{
+ "pk": 172, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 44, 
+  "code": 0, 
+  "uuid": "41836bd2-2c76-46a0-934c-1929a5fd4f5f", 
+  "name": "KAZINGA"
+ }
+},
+{
+ "pk": 173, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 45, 
+  "code": 0, 
+  "uuid": "9033d960-f9ff-433b-879b-2852da59d65f", 
+  "name": "BUSANZA"
+ }
+},
+{
+ "pk": 174, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 45, 
+  "code": 0, 
+  "uuid": "cfc3be76-b941-4323-bd4d-23a40a6b6001", 
+  "name": "ISHASHA"
+ }
+},
+{
+ "pk": 175, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 45, 
+  "code": 0, 
+  "uuid": "432ac350-848d-47f6-8de0-6add5e655109", 
+  "name": "NYANGA"
+ }
+},
+{
+ "pk": 176, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 46, 
+  "code": 0, 
+  "uuid": "45ecf5cf-cb8d-460a-9b83-c659b46d27a1", 
+  "name": "BIKOMERO"
+ }
+},
+{
+ "pk": 177, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 46, 
+  "code": 0, 
+  "uuid": "232b00fa-a516-4177-af61-fef3df474ee5", 
+  "name": "MARONKO"
+ }
+},
+{
+ "pk": 178, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 47, 
+  "code": 0, 
+  "uuid": "9c9489f6-814a-4643-a17a-6708e0f16a37", 
+  "name": "MAKANGA"
+ }
+},
+{
+ "pk": 179, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 47, 
+  "code": 0, 
+  "uuid": "c7ff8b80-191f-41c1-9252-256eedd22776", 
+  "name": "NYAMITUMBA"
+ }
+},
+{
+ "pk": 180, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 47, 
+  "code": 0, 
+  "uuid": "46615bae-cbe0-4c0d-8c22-15e7bf7dcef0", 
+  "name": "RWENGONGO"
+ }
+},
+{
+ "pk": 181, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 48, 
+  "code": 0, 
+  "uuid": "3eb59d78-1d57-4a49-a2c5-bf0ecc3c77b0", 
+  "name": "BUSHENKWE"
+ }
+},
+{
+ "pk": 182, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 48, 
+  "code": 0, 
+  "uuid": "939bd4a3-1f9e-4921-82ab-ac76b31e2f00", 
+  "name": "RUGARAMBIRO"
+ }
+},
+{
+ "pk": 183, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 49, 
+  "code": 0, 
+  "uuid": "9138e27b-33fa-43b3-b3a9-2106d600a2c4", 
+  "name": "KANYABWEZA"
+ }
+},
+{
+ "pk": 184, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 49, 
+  "code": 0, 
+  "uuid": "ad8ce6c6-97d9-46bf-9b5f-1c7aa9d3f1a2", 
+  "name": "KINYAMAGABO"
+ }
+},
+{
+ "pk": 185, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 49, 
+  "code": 0, 
+  "uuid": "164e8d51-262e-4fd8-b0fa-8980961830d5", 
+  "name": "RWENGONGO"
+ }
+},
+{
+ "pk": 186, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 50, 
+  "code": 0, 
+  "uuid": "6556588a-30df-4c90-86e5-643c74761908", 
+  "name": "KATERAMPUNGU"
+ }
+},
+{
+ "pk": 187, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 50, 
+  "code": 0, 
+  "uuid": "8a74db27-c887-48ef-9810-b53c321c9993", 
+  "name": "KISHORORO"
+ }
+},
+{
+ "pk": 188, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 50, 
+  "code": 0, 
+  "uuid": "c73ad6ce-1621-4744-b1e5-dbb8aa75e507", 
+  "name": "NYARUBINGO"
+ }
+},
+{
+ "pk": 189, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 51, 
+  "code": 0, 
+  "uuid": "c8c2f049-de8f-4544-b09f-e3d0fd1bbfa4", 
+  "name": "BIIZI"
+ }
+},
+{
+ "pk": 190, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 51, 
+  "code": 0, 
+  "uuid": "e46ec3d3-26bc-461d-a746-20bf1221bc40", 
+  "name": "KARENGYERE"
+ }
+},
+{
+ "pk": 191, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 51, 
+  "code": 0, 
+  "uuid": "c756d15d-ad0e-4528-b35f-64d6c2df49c2", 
+  "name": "KATAGIRAMEIZI"
+ }
+},
+{
+ "pk": 192, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 52, 
+  "code": 0, 
+  "uuid": "4afc8e06-83fd-4730-b7c6-b660e2bdc5c1", 
+  "name": "KANGARAME"
+ }
+},
+{
+ "pk": 193, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 52, 
+  "code": 0, 
+  "uuid": "4b01ea92-3e7c-447a-bea4-2e9a6fce119e", 
+  "name": "NYAKARAMBI"
+ }
+},
+{
+ "pk": 194, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 52, 
+  "code": 0, 
+  "uuid": "7d078189-8a5e-4012-a622-6df0a969bd00", 
+  "name": "NYAMUGARI"
+ }
+},
+{
+ "pk": 195, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 53, 
+  "code": 0, 
+  "uuid": "525ff3ac-2331-4094-9fb2-38b1baa728c5", 
+  "name": "KIJUMWA"
+ }
+},
+{
+ "pk": 196, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 53, 
+  "code": 0, 
+  "uuid": "2dd468d9-daa0-44ac-b26c-5deaa6c0b60f", 
+  "name": "KYANKYERE"
+ }
+},
+{
+ "pk": 197, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 53, 
+  "code": 0, 
+  "uuid": "4914878e-2635-4bf8-be36-cd5a7b590e61", 
+  "name": "NYUNDO"
+ }
+},
+{
+ "pk": 198, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 53, 
+  "code": 0, 
+  "uuid": "c1d0da12-9db2-47c7-a70f-b3a28c56a0d0", 
+  "name": "RWEMENGO"
+ }
+},
+{
+ "pk": 199, 
+ "model": "core.location", 
+ "fields": {
+  "parish": 24, 
+  "code": 0, 
+  "uuid": "0c765aeb-47de-4024-b07b-8a2f78d027f8", 
+  "name": "BUSHURA"
+ }
+}
+]
