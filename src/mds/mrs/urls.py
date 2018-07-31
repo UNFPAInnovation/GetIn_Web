@@ -22,7 +22,7 @@ auth_handler = Resource(handlers.AuthHandler)
 encounter_handler = Resource(handlers.SavedProcedureHandler)
 notification_handler = Resource(handlers.NotificationHandler)
 subject_handler = Resource(handlers.PatientHandler)
-event_handler = Resource(handlers.EventHandler)
+#event_handler = Resource(handlers.EventHandler)
 event_handler = Resource(handlers.RequestLogHandler)
 admin.autodiscover()
 
