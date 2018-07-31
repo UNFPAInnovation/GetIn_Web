@@ -122,6 +122,11 @@ class DistrictAdmin(admin.ModelAdmin):
         'name',
     ]
 
+class SMSMessageAdmin(admin.ModelAdmin):
+    model = SMSMessage
+    list_display = [
+        'tag',
+    ]
 
 admin.site.register(Concept, ConceptAdmin)
 admin.site.register(Relationship)
@@ -140,4 +145,5 @@ admin.site.register(Parish, ParishAdmin)
 admin.site.register(Subcounty, SubcountyAdmin)
 admin.site.register(County, CountyAdmin)
 admin.site.register(District, DistrictAdmin)
+admin.site.register(SMSMessage, SMSMessageAdmin)
 #admin.site.register(ClientEventLog, ClientEventLogAdmin)
