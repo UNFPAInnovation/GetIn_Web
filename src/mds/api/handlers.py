@@ -136,14 +136,6 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
             elif uuid:
                 response = self._read_by_uuid(request,uuid)
             else:
-                '''
-                q = request.REQUEST
-                if q:
-                    response = BaseHandler.read(self,request, **q)
-                else:
-                    logging.info("No querystring")
-                    response = BaseHandler.read(self,request)
-                '''
                 query_dict = request.GET.copy()
                 attrs = self.flatten_dict(query_dict)
                 # handle m2m fields
