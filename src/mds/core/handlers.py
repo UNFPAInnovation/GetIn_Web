@@ -306,6 +306,7 @@ class SubjectHandler(DispatchingHandler):
             return
         if not data.get('village', None):
             location = data.get('location', '').strip().upper()
+            data['location'] = location
             if not location.startswith('('):
                 data['village'] = location
 
