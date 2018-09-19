@@ -305,7 +305,9 @@ class SubjectHandler(DispatchingHandler):
         if not data:
             return
         if not data.get('village', None):
-            data['village'] = data.get('location', '')
+            location = data.get('location', '').strip().upper()
+            if not location.startswith('('):
+                data['village'] = location
 
     def correct_query(self, params):
         pass
