@@ -211,7 +211,7 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
         if uuid:
             logging.info("Has uuid: %s" % uuid)
             if klazz.objects.filter(uuid=uuid).count() == 1:
-                return self._update(request,uuid=uuid)
+                return self._update(request,uuid=uuid)[0]
         try:
             self.correct_fields(data)
         except:
