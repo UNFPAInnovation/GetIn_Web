@@ -73,6 +73,13 @@ class HandlerMixin(object):
         for field in _meta.many_to_many:
             m2m.append(field.name)
         return m2m
+        
+    def correct_fields(self, data):
+        pass
+
+    def correct_query(self, params):
+        pass
+
 
 class DispatchingHandler(BaseHandler,HandlerMixin):
     """Base HTTP handler for Sana api. Uses basic CRUD approach of the  
@@ -205,7 +212,10 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
             logging.info("Has uuid: %s" % uuid)
             if klazz.objects.filter(uuid=uuid).count() == 1:
                 return self._update(request,uuid=uuid)
-            
+        try:
+            self.correct_fields(data)
+        except:
+            pass
         instance = klazz(**data)
         # don't commit until we return and check backends
         #instance.save(commit=False)
@@ -253,6 +263,10 @@ class DispatchingHandler(BaseHandler,HandlerMixin):
                 _obj = getattr(obj,k).__class__.objects.get(uuid=v)
                 v = _obj
                 setattr(obj,k,v)
+        try:
+            self.correct_fields(raw_data)
+        except:
+            pass
         model.objects.filter(uuid=uuid).update(**raw_data)
         msg = model.objects.filter(uuid=uuid)
         return msg

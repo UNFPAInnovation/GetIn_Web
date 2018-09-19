@@ -299,6 +299,17 @@ class SubjectHandler(DispatchingHandler):
     model = Patients
     form = PatientForm
     signals = { LOGGER:( EventSignal(), EventSignalHandler(Event))}
+    
+    def correct_fields(self, data):
+        # Patch the location/village issue
+        if not data:
+            return
+        if not data.get('village', None):
+            data['village'] = data.get('location', '')
+
+    def correct_query(self, params):
+        pass
+
 
 class DocHandler(BaseHandler):
     """ Handles rest api documentation requests. """
