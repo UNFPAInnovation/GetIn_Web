@@ -22,6 +22,18 @@ from .patients import Patients
 from .ambulancedriver import AmbulanceDriver
 from .sms_message import SMSMessage
 from mds.core.extensions.models import *
+from mds.core import signals
+
+from django.db.models.signals import pre_save
+
+pre_save.connect(signals.prepare_charfields, sender=Location)
+pre_save.connect(signals.prepare_charfields, sender=Parish)
+pre_save.connect(signals.prepare_charfields, sender=Subcounty)
+pre_save.connect(signals.prepare_charfields, sender=County)
+pre_save.connect(signals.prepare_charfields, sender=District)
+pre_save.connect(signals.prepare_charfields, sender=Patients)
+pre_save.connect(signals.prepare_charfields, sender=Observer)
+pre_save.connect(signals.prepare_charfields, sender=AmbulanceDriver)
 
 __all__ = ['Concept', 'Relationship','RelationshipCategory',
            'Device', 
