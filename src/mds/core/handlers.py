@@ -311,6 +311,9 @@ class SubjectHandler(DispatchingHandler):
                 data['village'] = location
 
     def correct_query(self, params):
+        if not params:
+            return
+        #for  param, value in params.items():
         pass
 
 
