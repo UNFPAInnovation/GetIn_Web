@@ -67,7 +67,7 @@ class ObserverAdmin(admin.ModelAdmin):
     readonly_fields = ['uuid',]
     list_display = ['user', 'uuid', 'role']
     actions=[mark_voided,]
-
+    filter_horizontal = ['locations','parishes']
 
 class SubjectAdmin(admin.ModelAdmin):
     readonly_fields = ['uuid',]
