@@ -20,6 +20,7 @@ class Location(models.Model):
     class Meta:
         app_label = "core"
         verbose_name = "village"
+        ordering = ['name',]
     
     uuid = models.SlugField(max_length=36, unique=True, default=make_uuid, editable=False)
     """ A universally unique identifier """
@@ -36,6 +37,8 @@ class Location(models.Model):
 class Subcounty(models.Model):
     class Meta:
         app_label = "core"
+        ordering = ['name',]
+        
     name = models.CharField(max_length=255)
     district = models.ForeignKey('District', blank=True, null=True)
     uuid = models.SlugField(max_length=36, default=make_uuid)
@@ -46,6 +49,8 @@ class Subcounty(models.Model):
 class Parish(models.Model):
     class Meta:
         app_label = "core"
+        ordering = ['name',]
+        
     name = models.CharField(max_length=255)
     subcounty = models.ForeignKey('Subcounty')
     uuid = models.SlugField(max_length=36, default=make_uuid)
@@ -56,6 +61,8 @@ class Parish(models.Model):
 class District(models.Model):
     class Meta:
         app_label = "core"
+        ordering = ['name',]
+        
     name = models.CharField(max_length=255)
     uuid = models.SlugField(max_length=36, default=make_uuid)
 
@@ -65,6 +72,8 @@ class District(models.Model):
 class County(models.Model):
     class Meta:
         app_label = "core"
+        ordering = ['name',]
+        
     name = models.CharField(max_length=255)
     district = models.ForeignKey('District')
     uuid = models.SlugField(max_length=36, default=make_uuid)
